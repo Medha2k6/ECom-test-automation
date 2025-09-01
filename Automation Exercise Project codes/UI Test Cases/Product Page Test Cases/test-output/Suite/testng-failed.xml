@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orangehrm.tests.TC_Product_21_to_28">
+        <methods>
+          <include name="verifyProductFeatures_21_to_28" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.TC_Product_21_to_28 -->
+      <class name="com.orangehrm.tests.TC_Product_01_to_07">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyIconsNavigation" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.TC_Product_01_to_07 -->
+      <class name="com.orangehrm.tests.TC_Product_08_to_12">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="verifyProductFeatures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.TC_Product_08_to_12 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

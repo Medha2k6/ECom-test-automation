@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.orangehrm.tests.TC_Product_01_to_12"/>
+      <class name="com.orangehrm.tests.TC_Product_13_to_28"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
