@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-03T20:22:40 IST" name="Suite" finished-at="2025-09-03T20:25:00 IST" duration-ms="139743">
+    <groups>
+    </groups>
+    <test started-at="2025-09-03T20:22:40 IST" name="Test" finished-at="2025-09-03T20:25:00 IST" duration-ms="139743">
+      <class name="com.product.tests.Product_Functional_1_10">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.product.tests.Product_Functional_1_10@305b7c14]" started-at="2025-09-03T20:23:16 IST" name="setUp" finished-at="2025-09-03T20:23:17 IST" duration-ms="1734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.product.tests.Product_Functional_1_10.verifyFunctionalCases(java.lang.Integer,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFunctionalCases(java.lang.Integer,java.lang.String)[pri:0, instance:com.product.tests.Product_Functional_1_10@305b7c14]" started-at="2025-09-03T20:23:17 IST" name="verifyFunctionalCases" data-provider="dp" finished-at="2025-09-03T20:23:48 IST" duration-ms="30729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFunctionalCases -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.product.tests.Product_Functional_1_10@305b7c14]" started-at="2025-09-03T20:23:48 IST" name="tearDown" finished-at="2025-09-03T20:23:49 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.product.tests.Product_Functional_1_10 -->
+      <class name="com.product.tests.Product_Functional_11_20">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.product.tests.Product_Functional_11_20@6913c1fb]" started-at="2025-09-03T20:23:49 IST" name="setUp" finished-at="2025-09-03T20:23:50 IST" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.product.tests.Product_Functional_11_20.verifyProductFunctional_11_20(java.lang.Integer,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductFunctional_11_20(java.lang.Integer,java.lang.String)[pri:0, instance:com.product.tests.Product_Functional_11_20@6913c1fb]" started-at="2025-09-03T20:23:50 IST" name="verifyProductFunctional_11_20" data-provider="dp" finished-at="2025-09-03T20:25:00 IST" duration-ms="69901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductFunctional_11_20 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.product.tests.Product_Functional_11_20@6913c1fb]" started-at="2025-09-03T20:25:00 IST" name="tearDown" finished-at="2025-09-03T20:25:00 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.product.tests.Product_Functional_11_20 -->
+      <class name="com.product.tests.Product_Functional_21_33">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.product.tests.Product_Functional_21_33@587e5365]" started-at="2025-09-03T20:22:40 IST" name="beforeSuite" finished-at="2025-09-03T20:22:40 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.product.tests.Product_Functional_21_33@587e5365]" started-at="2025-09-03T20:22:40 IST" name="setUp" finished-at="2025-09-03T20:22:42 IST" duration-ms="1967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.product.tests.Product_Functional_21_33.verifyProductFunctional_21_33(java.lang.Integer,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductFunctional_21_33(java.lang.Integer,java.lang.String)[pri:0, instance:com.product.tests.Product_Functional_21_33@587e5365]" started-at="2025-09-03T20:22:42 IST" name="verifyProductFunctional_21_33" data-provider="dp" finished-at="2025-09-03T20:23:15 IST" duration-ms="32758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductFunctional_21_33 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.product.tests.Product_Functional_21_33@587e5365]" started-at="2025-09-03T20:23:15 IST" name="tearDown" finished-at="2025-09-03T20:23:16 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.product.tests.Product_Functional_21_33@587e5365]" started-at="2025-09-03T20:25:00 IST" name="afterSuite" finished-at="2025-09-03T20:25:01 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.product.tests.Product_Functional_21_33 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
