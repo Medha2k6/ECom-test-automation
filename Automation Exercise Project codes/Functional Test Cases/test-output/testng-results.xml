@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="17" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T17:11:52 IST" name="Default suite" finished-at="2025-09-04T17:14:30 IST" duration-ms="157487">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T17:11:52 IST" name="Default test" finished-at="2025-09-04T17:14:30 IST" duration-ms="157487">
+      <class name="com.functional.tests.ContactUs_Functional">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:11:52 IST" name="beforeClass" finished-at="2025-09-04T17:11:58 IST" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:11:58 IST" name="goToContactUs" finished-at="2025-09-04T17:12:05 IST" duration-ms="7789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_01_nameAcceptsValid()[pri:1, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:05 IST" name="tc_cu_01_nameAcceptsValid" finished-at="2025-09-04T17:12:06 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_01_nameAcceptsValid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:06 IST" name="goToContactUs" finished-at="2025-09-04T17:12:13 IST" duration-ms="6971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_02_nameRejectsInvalid()[pri:2, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:13 IST" name="tc_cu_02_nameRejectsInvalid" finished-at="2025-09-04T17:12:13 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_02_nameRejectsInvalid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:13 IST" name="goToContactUs" finished-at="2025-09-04T17:12:17 IST" duration-ms="3999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_03_emailAcceptsValid()[pri:3, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:17 IST" name="tc_cu_03_emailAcceptsValid" finished-at="2025-09-04T17:12:17 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_03_emailAcceptsValid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:17 IST" name="goToContactUs" finished-at="2025-09-04T17:12:22 IST" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_04_emailRejectsInvalid()[pri:4, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:22 IST" name="tc_cu_04_emailRejectsInvalid" finished-at="2025-09-04T17:12:22 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_04_emailRejectsInvalid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:22 IST" name="goToContactUs" finished-at="2025-09-04T17:12:26 IST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_05_subjectAcceptsValid()[pri:5, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:26 IST" name="tc_cu_05_subjectAcceptsValid" finished-at="2025-09-04T17:12:26 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_05_subjectAcceptsValid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:26 IST" name="goToContactUs" finished-at="2025-09-04T17:12:30 IST" duration-ms="4100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_06_subjectRejectsInvalid()[pri:6, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:30 IST" name="tc_cu_06_subjectRejectsInvalid" finished-at="2025-09-04T17:12:31 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_06_subjectRejectsInvalid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:31 IST" name="goToContactUs" finished-at="2025-09-04T17:12:35 IST" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_07_messageFieldAcceptsText()[pri:7, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:35 IST" name="tc_cu_07_messageFieldAcceptsText" finished-at="2025-09-04T17:12:35 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_07_messageFieldAcceptsText -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:35 IST" name="goToContactUs" finished-at="2025-09-04T17:12:41 IST" duration-ms="5845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_08_chooseFileClickable()[pri:8, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:41 IST" name="tc_cu_08_chooseFileClickable" finished-at="2025-09-04T17:12:41 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_08_chooseFileClickable -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:41 IST" name="goToContactUs" finished-at="2025-09-04T17:12:44 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_09_chosenFileAppears()[pri:9, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:44 IST" name="tc_cu_09_chosenFileAppears" finished-at="2025-09-04T17:12:45 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_09_chosenFileAppears -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:45 IST" name="goToContactUs" finished-at="2025-09-04T17:12:48 IST" duration-ms="3809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_10_nameRejectsSpecialCharsStrict()[pri:10, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:48 IST" name="tc_cu_10_nameRejectsSpecialCharsStrict" finished-at="2025-09-04T17:12:48 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_10_nameRejectsSpecialCharsStrict -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:48 IST" name="goToContactUs" finished-at="2025-09-04T17:12:52 IST" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_11_feedbackMailLinkIsMailto()[pri:11, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:52 IST" name="tc_cu_11_feedbackMailLinkIsMailto" finished-at="2025-09-04T17:12:52 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_11_feedbackMailLinkIsMailto -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:52 IST" name="goToContactUs" finished-at="2025-09-04T17:12:55 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_12_footerSubValid()[pri:12, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:55 IST" name="tc_cu_12_footerSubValid" finished-at="2025-09-04T17:12:55 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_12_footerSubValid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:55 IST" name="goToContactUs" finished-at="2025-09-04T17:12:59 IST" duration-ms="3953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_13_footerSubInvalid()[pri:13, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:12:59 IST" name="tc_cu_13_footerSubInvalid" finished-at="2025-09-04T17:13:00 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_13_footerSubInvalid -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:00 IST" name="goToContactUs" finished-at="2025-09-04T17:13:03 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_14_footerSubBlank()[pri:14, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:03 IST" name="tc_cu_14_footerSubBlank" finished-at="2025-09-04T17:13:03 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_14_footerSubBlank -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:03 IST" name="goToContactUs" finished-at="2025-09-04T17:13:06 IST" duration-ms="3335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_15_footerSubDuplicate()[pri:15, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:06 IST" name="tc_cu_15_footerSubDuplicate" finished-at="2025-09-04T17:13:18 IST" duration-ms="11439" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'already') or contains(.,'exists') or contains(@class,'alert-warning') or contains(@class,'alert-danger')] (tried for 6 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\KEERTH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57633/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 834f81b61b4b57428446ab9dfaf37e63]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'already') or contains(.,'exists') or contains(@class,'alert-warning') or contains(@class,'alert-danger')] (tried for 6 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\KEERTH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57633/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 834f81b61b4b57428446ab9dfaf37e63
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.functional.tests.ContactUs_Functional.tc_cu_15_footerSubDuplicate(ContactUs_Functional.java:331)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_15_footerSubDuplicate -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:18 IST" name="goToContactUs" finished-at="2025-09-04T17:13:22 IST" duration-ms="4220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_16_footerSubEmailOver100Chars()[pri:16, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:22 IST" name="tc_cu_16_footerSubEmailOver100Chars" finished-at="2025-09-04T17:13:22 IST" duration-ms="341" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Email field should limit or reject >100 chars; observed length=113 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Email field should limit or reject >100 chars; observed length=113 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.functional.tests.ContactUs_Functional.tc_cu_16_footerSubEmailOver100Chars(ContactUs_Functional.java:345)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_16_footerSubEmailOver100Chars -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:22 IST" name="goToContactUs" finished-at="2025-09-04T17:13:26 IST" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_17_homeAfterSubmitGoesHome()[pri:17, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:26 IST" name="tc_cu_17_homeAfterSubmitGoesHome" finished-at="2025-09-04T17:13:29 IST" duration-ms="3197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_17_homeAfterSubmitGoesHome -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:29 IST" name="goToContactUs" finished-at="2025-09-04T17:13:32 IST" duration-ms="3506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_18_submitBlankName()[pri:18, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:32 IST" name="tc_cu_18_submitBlankName" finished-at="2025-09-04T17:13:33 IST" duration-ms="805" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submission should not succeed with blank name. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submission should not succeed with blank name. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.functional.tests.ContactUs_Functional.tc_cu_18_submitBlankName(ContactUs_Functional.java:375)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_18_submitBlankName -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:33 IST" name="goToContactUs" finished-at="2025-09-04T17:13:37 IST" duration-ms="3901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_19_submitBlankEmail()[pri:19, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:37 IST" name="tc_cu_19_submitBlankEmail" finished-at="2025-09-04T17:13:53 IST" duration-ms="16183" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submission should not succeed with blank email. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submission should not succeed with blank email. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.functional.tests.ContactUs_Functional.tc_cu_19_submitBlankEmail(ContactUs_Functional.java:388)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_19_submitBlankEmail -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:53 IST" name="goToContactUs" finished-at="2025-09-04T17:13:58 IST" duration-ms="4897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_20_submitBlankSubject()[pri:20, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:13:58 IST" name="tc_cu_20_submitBlankSubject" finished-at="2025-09-04T17:14:00 IST" duration-ms="1568" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Submission should not succeed with blank subject. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Submission should not succeed with blank subject. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.functional.tests.ContactUs_Functional.tc_cu_20_submitBlankSubject(ContactUs_Functional.java:401)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_20_submitBlankSubject -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:00 IST" name="goToContactUs" finished-at="2025-09-04T17:14:04 IST" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_21_feedbackSubmits()[pri:21, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:04 IST" name="tc_cu_21_feedbackSubmits" finished-at="2025-09-04T17:14:05 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_21_feedbackSubmits -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:05 IST" name="goToContactUs" finished-at="2025-09-04T17:14:09 IST" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_22_submitValidCredentials()[pri:22, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:09 IST" name="tc_cu_22_submitValidCredentials" finished-at="2025-09-04T17:14:09 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_22_submitValidCredentials -->
+        <test-method is-config="true" signature="goToContactUs()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:09 IST" name="goToContactUs" finished-at="2025-09-04T17:14:13 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactUs -->
+        <test-method signature="tc_cu_23_submitInvalidCredentials()[pri:23, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:13 IST" name="tc_cu_23_submitInvalidCredentials" finished-at="2025-09-04T17:14:29 IST" duration-ms="16005" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid credentials should not yield success message. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid credentials should not yield success message. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.functional.tests.ContactUs_Functional.tc_cu_23_submitInvalidCredentials(ContactUs_Functional.java:440)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cu_23_submitInvalidCredentials -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.functional.tests.ContactUs_Functional@757277dc]" started-at="2025-09-04T17:14:29 IST" name="afterClass" finished-at="2025-09-04T17:14:30 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.functional.tests.ContactUs_Functional -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

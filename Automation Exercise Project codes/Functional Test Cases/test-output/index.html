@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Keerthana\AppData\Local\Temp\testng-eclipse-799250857\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 6 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_15_footerSubDuplicate">tc_cu_15_footerSubDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_16_footerSubEmailOver100Chars">tc_cu_16_footerSubEmailOver100Chars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_18_submitBlankName">tc_cu_18_submitBlankName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_19_submitBlankEmail">tc_cu_19_submitBlankEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_20_submitBlankSubject">tc_cu_20_submitBlankSubject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_23_submitInvalidCredentials">tc_cu_23_submitInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_01_nameAcceptsValid">tc_cu_01_nameAcceptsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_02_nameRejectsInvalid">tc_cu_02_nameRejectsInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_03_emailAcceptsValid">tc_cu_03_emailAcceptsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_04_emailRejectsInvalid">tc_cu_04_emailRejectsInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_05_subjectAcceptsValid">tc_cu_05_subjectAcceptsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_06_subjectRejectsInvalid">tc_cu_06_subjectRejectsInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_07_messageFieldAcceptsText">tc_cu_07_messageFieldAcceptsText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_08_chooseFileClickable">tc_cu_08_chooseFileClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_09_chosenFileAppears">tc_cu_09_chosenFileAppears</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_10_nameRejectsSpecialCharsStrict">tc_cu_10_nameRejectsSpecialCharsStrict</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_11_feedbackMailLinkIsMailto">tc_cu_11_feedbackMailLinkIsMailto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_12_footerSubValid">tc_cu_12_footerSubValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_13_footerSubInvalid">tc_cu_13_footerSubInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_14_footerSubBlank">tc_cu_14_footerSubBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_17_homeAfterSubmitGoesHome">tc_cu_17_homeAfterSubmitGoesHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_21_feedbackSubmits">tc_cu_21_feedbackSubmits</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.functional.tests.ContactUs_Functional" class="method navigator-link" hash-for-method="tc_cu_22_submitValidCredentials">tc_cu_22_submitValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.functional.tests.ContactUs_Functional</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_15_footerSubDuplicate">
+                  </a> <!-- tc_cu_15_footerSubDuplicate -->
+                  <span class="method-name">tc_cu_15_footerSubDuplicate</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(translate(.,&apos;ABCDEFGHIJKLMNOPQRSTUVWXYZ&apos;,&apos;abcdefghijklmnopqrstuvwxyz&apos;),&apos;already&apos;) or contains(.,&apos;exists&apos;) or contains(@class,&apos;alert-warning&apos;) or contains(@class,&apos;alert-danger&apos;)] (tried for 6 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\KEERTH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57633/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 834f81b61b4b57428446ab9dfaf37e63
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.functional.tests.ContactUs_Functional.tc_cu_15_footerSubDuplicate(ContactUs_Functional.java:331)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_16_footerSubEmailOver100Chars">
+                  </a> <!-- tc_cu_16_footerSubEmailOver100Chars -->
+                  <span class="method-name">tc_cu_16_footerSubEmailOver100Chars</span>
+                  <div class="stack-trace">java.lang.AssertionError: Email field should limit or reject &gt;100 chars; observed length=113 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.functional.tests.ContactUs_Functional.tc_cu_16_footerSubEmailOver100Chars(ContactUs_Functional.java:345)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_18_submitBlankName">
+                  </a> <!-- tc_cu_18_submitBlankName -->
+                  <span class="method-name">tc_cu_18_submitBlankName</span>
+                  <div class="stack-trace">java.lang.AssertionError: Submission should not succeed with blank name. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.functional.tests.ContactUs_Functional.tc_cu_18_submitBlankName(ContactUs_Functional.java:375)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_19_submitBlankEmail">
+                  </a> <!-- tc_cu_19_submitBlankEmail -->
+                  <span class="method-name">tc_cu_19_submitBlankEmail</span>
+                  <div class="stack-trace">java.lang.AssertionError: Submission should not succeed with blank email. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.functional.tests.ContactUs_Functional.tc_cu_19_submitBlankEmail(ContactUs_Functional.java:388)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_20_submitBlankSubject">
+                  </a> <!-- tc_cu_20_submitBlankSubject -->
+                  <span class="method-name">tc_cu_20_submitBlankSubject</span>
+                  <div class="stack-trace">java.lang.AssertionError: Submission should not succeed with blank subject. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.functional.tests.ContactUs_Functional.tc_cu_20_submitBlankSubject(ContactUs_Functional.java:401)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_23_submitInvalidCredentials">
+                  </a> <!-- tc_cu_23_submitInvalidCredentials -->
+                  <span class="method-name">tc_cu_23_submitInvalidCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid credentials should not yield success message. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.functional.tests.ContactUs_Functional.tc_cu_23_submitInvalidCredentials(ContactUs_Functional.java:440)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.functional.tests.ContactUs_Functional</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_01_nameAcceptsValid">
+                  </a> <!-- tc_cu_01_nameAcceptsValid -->
+                  <span class="method-name">tc_cu_01_nameAcceptsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_02_nameRejectsInvalid">
+                  </a> <!-- tc_cu_02_nameRejectsInvalid -->
+                  <span class="method-name">tc_cu_02_nameRejectsInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_03_emailAcceptsValid">
+                  </a> <!-- tc_cu_03_emailAcceptsValid -->
+                  <span class="method-name">tc_cu_03_emailAcceptsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_04_emailRejectsInvalid">
+                  </a> <!-- tc_cu_04_emailRejectsInvalid -->
+                  <span class="method-name">tc_cu_04_emailRejectsInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_05_subjectAcceptsValid">
+                  </a> <!-- tc_cu_05_subjectAcceptsValid -->
+                  <span class="method-name">tc_cu_05_subjectAcceptsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_06_subjectRejectsInvalid">
+                  </a> <!-- tc_cu_06_subjectRejectsInvalid -->
+                  <span class="method-name">tc_cu_06_subjectRejectsInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_07_messageFieldAcceptsText">
+                  </a> <!-- tc_cu_07_messageFieldAcceptsText -->
+                  <span class="method-name">tc_cu_07_messageFieldAcceptsText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_08_chooseFileClickable">
+                  </a> <!-- tc_cu_08_chooseFileClickable -->
+                  <span class="method-name">tc_cu_08_chooseFileClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_09_chosenFileAppears">
+                  </a> <!-- tc_cu_09_chosenFileAppears -->
+                  <span class="method-name">tc_cu_09_chosenFileAppears</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_10_nameRejectsSpecialCharsStrict">
+                  </a> <!-- tc_cu_10_nameRejectsSpecialCharsStrict -->
+                  <span class="method-name">tc_cu_10_nameRejectsSpecialCharsStrict</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_11_feedbackMailLinkIsMailto">
+                  </a> <!-- tc_cu_11_feedbackMailLinkIsMailto -->
+                  <span class="method-name">tc_cu_11_feedbackMailLinkIsMailto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_12_footerSubValid">
+                  </a> <!-- tc_cu_12_footerSubValid -->
+                  <span class="method-name">tc_cu_12_footerSubValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_13_footerSubInvalid">
+                  </a> <!-- tc_cu_13_footerSubInvalid -->
+                  <span class="method-name">tc_cu_13_footerSubInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_14_footerSubBlank">
+                  </a> <!-- tc_cu_14_footerSubBlank -->
+                  <span class="method-name">tc_cu_14_footerSubBlank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_17_homeAfterSubmitGoesHome">
+                  </a> <!-- tc_cu_17_homeAfterSubmitGoesHome -->
+                  <span class="method-name">tc_cu_17_homeAfterSubmitGoesHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_21_feedbackSubmits">
+                  </a> <!-- tc_cu_21_feedbackSubmits -->
+                  <span class="method-name">tc_cu_21_feedbackSubmits</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_cu_22_submitValidCredentials">
+                  </a> <!-- tc_cu_22_submitValidCredentials -->
+                  <span class="method-name">tc_cu_22_submitValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Keerthana\AppData\Local\Temp\testng-eclipse-799250857\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.functional.tests.ContactUs_Functional&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_cu_19_submitBlankEmail')
+data.setCell(0, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(0, 3, 16183);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc_cu_23_submitInvalidCredentials')
+data.setCell(1, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(1, 3, 16005);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc_cu_15_footerSubDuplicate')
+data.setCell(2, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(2, 3, 11439);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc_cu_17_homeAfterSubmitGoesHome')
+data.setCell(3, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(3, 3, 3197);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc_cu_20_submitBlankSubject')
+data.setCell(4, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(4, 3, 1568);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc_cu_21_feedbackSubmits')
+data.setCell(5, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(5, 3, 958);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc_cu_18_submitBlankName')
+data.setCell(6, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(6, 3, 805);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc_cu_22_submitValidCredentials')
+data.setCell(7, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(7, 3, 703);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc_cu_01_nameAcceptsValid')
+data.setCell(8, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(8, 3, 577);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc_cu_12_footerSubValid')
+data.setCell(9, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(9, 3, 408);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc_cu_13_footerSubInvalid')
+data.setCell(10, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(10, 3, 368);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc_cu_14_footerSubBlank')
+data.setCell(11, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(11, 3, 348);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc_cu_16_footerSubEmailOver100Chars')
+data.setCell(12, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(12, 3, 341);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc_cu_02_nameRejectsInvalid')
+data.setCell(13, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(13, 3, 337);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc_cu_06_subjectRejectsInvalid')
+data.setCell(14, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(14, 3, 327);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc_cu_05_subjectAcceptsValid')
+data.setCell(15, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(15, 3, 252);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc_cu_03_emailAcceptsValid')
+data.setCell(16, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(16, 3, 240);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc_cu_04_emailRejectsInvalid')
+data.setCell(17, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(17, 3, 212);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc_cu_07_messageFieldAcceptsText')
+data.setCell(18, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(18, 3, 182);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc_cu_10_nameRejectsSpecialCharsStrict')
+data.setCell(19, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(19, 3, 148);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc_cu_08_chooseFileClickable')
+data.setCell(20, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(20, 3, 76);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc_cu_09_chosenFileAppears')
+data.setCell(21, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(21, 3, 52);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc_cu_11_feedbackMailLinkIsMailto')
+data.setCell(22, 2, 'com.functional.tests.ContactUs_Functional')
+data.setCell(22, 3, 21);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.functional.tests.ContactUs_Functional</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">5090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_01_nameAcceptsValid</span>
+                <span class="method-start">12880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">13464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_02_nameRejectsInvalid</span>
+                <span class="method-start">20435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">20775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_03_emailAcceptsValid</span>
+                <span class="method-start">24774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">25015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_04_emailRejectsInvalid</span>
+                <span class="method-start">29666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">29880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_05_subjectAcceptsValid</span>
+                <span class="method-start">33562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">33817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_06_subjectRejectsInvalid</span>
+                <span class="method-start">37918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">38248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_07_messageFieldAcceptsText</span>
+                <span class="method-start">42708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">42892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_08_chooseFileClickable</span>
+                <span class="method-start">48738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">48822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_09_chosenFileAppears</span>
+                <span class="method-start">52013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">52068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_10_nameRejectsSpecialCharsStrict</span>
+                <span class="method-start">55877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">56027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_11_feedbackMailLinkIsMailto</span>
+                <span class="method-start">59404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">59426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_12_footerSubValid</span>
+                <span class="method-start">62529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">62939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_13_footerSubInvalid</span>
+                <span class="method-start">66892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">67262 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_14_footerSubBlank</span>
+                <span class="method-start">70338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">70689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_cu_15_footerSubDuplicate</span>
+                <span class="method-start">74024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">85468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_cu_16_footerSubEmailOver100Chars</span>
+                <span class="method-start">89689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">90033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_17_homeAfterSubmitGoesHome</span>
+                <span class="method-start">93062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">96260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_cu_18_submitBlankName</span>
+                <span class="method-start">99766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">100574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_cu_19_submitBlankEmail</span>
+                <span class="method-start">104475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">120661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_cu_20_submitBlankSubject</span>
+                <span class="method-start">125558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">127131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_21_feedbackSubmits</span>
+                <span class="method-start">131669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">132629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_cu_22_submitValidCredentials</span>
+                <span class="method-start">136255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactUs</span>
+                <span class="method-start">136960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_cu_23_submitInvalidCredentials</span>
+                <span class="method-start">140842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">156850 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
