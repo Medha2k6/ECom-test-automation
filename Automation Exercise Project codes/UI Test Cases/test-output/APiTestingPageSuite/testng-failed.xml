@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [APiTestingPageSuite]">
+  <listeners>
+    <listener class-name="com.ui.listeners.ApiTestingExtentTestListener"/>
+  </listeners>
+  <test thread-count="1" name="ApiPageTest(failed)">
+    <classes>
+      <class name="com.ui.tests.ApiTestingPageTestSuite">
+        <methods>
+          <include name="TC_API_Testing_23_DuplicateEmailSubscription"/>
+          <include name="teardown"/>
+          <include name="TC_API_Testing_14_ScrollFunctionality"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ui.tests.ApiTestingPageTestSuite -->
+    </classes>
+  </test> <!-- ApiPageTest(failed) -->
+</suite> <!-- Failed suite [APiTestingPageSuite] -->

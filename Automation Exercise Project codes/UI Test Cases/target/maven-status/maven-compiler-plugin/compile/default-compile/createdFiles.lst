@@ -1,0 +1,5 @@
+com\orangehrm\pages\loginpage.class
+com\orangehrm\Base\BaseTest.class
+com\orangehrm\utilities\ExtentManager.class
+com\orangehrm\utilities\ScreenshotUtilities.class
+com\orangehrm\utilities\ExcelUtilities.class
