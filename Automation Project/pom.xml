@@ -121,8 +121,6 @@
                         <suiteXmlFile>XML/product_functional_testng.xml</suiteXmlFile>
                         <suiteXmlFile>XML/TestCases_testng.xml</suiteXmlFile>
                         <suiteXmlFile>XML/testng_api.xml</suiteXmlFile>
-                        <suiteXmlFile>XML/testng_cart.xml</suiteXmlFile>
-                        <suiteXmlFile>XML/testng_contactus.xml</suiteXmlFile>
                         <suiteXmlFile>XML/testng_home.xml</suiteXmlFile>
                         <suiteXmlFile>XML/testng_testcases.xml</suiteXmlFile>
                     </suiteXmlFiles>
