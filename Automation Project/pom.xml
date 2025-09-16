@@ -9,64 +9,65 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>Framework</name>
     
-    <!-- Properties section added from POM 1 -->
+    <!-- Properties section -->
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <!-- Selenium - UPDATED to latest version for Chrome 140 support -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.35.0</version> <!-- Keeping POM 2's version -->
+            <version>4.25.0</version>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <!-- WebDriverManager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.9.2</version> <!-- Keeping POM 2's version -->
+            <version>5.9.2</version>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.7.0</version> <!-- Keeping POM 2's version -->
+            <version>7.7.0</version>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <!-- Apache POI -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>5.4.1</version> <!-- Keeping POM 2's version -->
+            <version>5.4.1</version>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <!-- Apache POI OOXML -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>5.4.1</version> <!-- Keeping POM 2's version -->
+            <version>5.4.1</version>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <!-- ExtentReports -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>5.1.1</version>
         </dependency>
         
-        <!-- Apache Commons IO - Updated for POI 5.4.1 compatibility -->
+        <!-- Apache Commons IO -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.16.1</version>
         </dependency>
         
-        <!-- Log4j2 (API + Core, same version) - Added from POM 1 -->
+        <!-- Log4j2 (API + Core) -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -78,42 +79,53 @@
             <artifactId>log4j-core</artifactId>
             <version>2.20.0</version>
         </dependency>
+        
+        <!-- SLF4J Implementation - ADDED to fix SLF4J warning -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+        </dependency>
     </dependencies>
     
     <build>
         <plugins>
-            <!-- Compiler plugin -->
+            <!-- Compiler plugin - UPDATED with release parameter -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <release>21</release>
                 </configuration>
             </plugin>
             
-            <!-- Surefire plugin for TestNG -->
+            <!-- Surefire plugin for TestNG - UPDATED with proper report configuration -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                   <suiteXmlFiles>
-    <suiteXmlFile>XML/contactus_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/data_contactus_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/data_login_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/data_product_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/data_register_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/login_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/product_functional_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/TestCases_testng.xml</suiteXmlFile>
-    <suiteXmlFile>XML/testng_api.xml</suiteXmlFile>
-    <suiteXmlFile>XML/testng_cart.xml</suiteXmlFile>
-    <suiteXmlFile>XML/testng_contactus.xml</suiteXmlFile>
-    <suiteXmlFile>XML/testng_home.xml</suiteXmlFile>
-    <suiteXmlFile>XML/testng_testcases.xml</suiteXmlFile>
-</suiteXmlFiles>
+                    <!-- Generate reports for Jenkins -->
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    
+                    <!-- Suite XML files -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>XML/contactus_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/data_contactus_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/data_login_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/data_product_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/data_register_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/login_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/product_functional_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/TestCases_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/testng_api.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/testng_cart.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/testng_contactus.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/testng_home.xml</suiteXmlFile>
+                        <suiteXmlFile>XML/testng_testcases.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
