@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 2 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_02_LogoRedirect">TC_API_Testing_02_LogoRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_09_VideoTutorialsIcon">TC_API_Testing_09_VideoTutorialsIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_01_NavigateToAPITesting">TC_API_Testing_01_NavigateToAPITesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_03_HomeIconRedirect">TC_API_Testing_03_HomeIconRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_04_ProductsIconRedirect">TC_API_Testing_04_ProductsIconRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_05_CartIconRedirect">TC_API_Testing_05_CartIconRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_06_SignupLoginIcon">TC_API_Testing_06_SignupLoginIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_07_TestCasesIconRedirect">TC_API_Testing_07_TestCasesIconRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_08_APITestingIcon">TC_API_Testing_08_APITestingIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_10_ContactUsIcon">TC_API_Testing_10_ContactUsIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_11_SubscriptionSection">TC_API_Testing_11_SubscriptionSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_12_APISectionExpands">TC_API_Testing_12_APISectionExpands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_13_APISectionCollapses">TC_API_Testing_13_APISectionCollapses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_14_ScrollFunctionality">TC_API_Testing_14_ScrollFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_15_APIURLsClickable">TC_API_Testing_15_APIURLsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_16_ConsistentDesign">TC_API_Testing_16_ConsistentDesign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ui.tests.ApiTestingPageTestSuite" class="method navigator-link" hash-for-method="TC_API_Testing_17_RightClickNewTab">TC_API_Testing_17_RightClickNewTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ui.tests.ApiTestingPageTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_02_LogoRedirect">
+                  </a> <!-- TC_API_Testing_02_LogoRedirect -->
+                  <span class="method-name">TC_API_Testing_02_LogoRedirect</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.ui.tests.ApiTestingPageTestSuite.TC_API_Testing_02_LogoRedirect(ApiTestingPageTestSuite.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_09_VideoTutorialsIcon">
+                  </a> <!-- TC_API_Testing_09_VideoTutorialsIcon -->
+                  <span class="method-name">TC_API_Testing_09_VideoTutorialsIcon</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.ui.tests.ApiTestingPageTestSuite.TC_API_Testing_09_VideoTutorialsIcon(ApiTestingPageTestSuite.java:158)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.ApiTestingPageTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_01_NavigateToAPITesting">
+                  </a> <!-- TC_API_Testing_01_NavigateToAPITesting -->
+                  <span class="method-name">TC_API_Testing_01_NavigateToAPITesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_03_HomeIconRedirect">
+                  </a> <!-- TC_API_Testing_03_HomeIconRedirect -->
+                  <span class="method-name">TC_API_Testing_03_HomeIconRedirect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_04_ProductsIconRedirect">
+                  </a> <!-- TC_API_Testing_04_ProductsIconRedirect -->
+                  <span class="method-name">TC_API_Testing_04_ProductsIconRedirect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_05_CartIconRedirect">
+                  </a> <!-- TC_API_Testing_05_CartIconRedirect -->
+                  <span class="method-name">TC_API_Testing_05_CartIconRedirect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_06_SignupLoginIcon">
+                  </a> <!-- TC_API_Testing_06_SignupLoginIcon -->
+                  <span class="method-name">TC_API_Testing_06_SignupLoginIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_07_TestCasesIconRedirect">
+                  </a> <!-- TC_API_Testing_07_TestCasesIconRedirect -->
+                  <span class="method-name">TC_API_Testing_07_TestCasesIconRedirect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_08_APITestingIcon">
+                  </a> <!-- TC_API_Testing_08_APITestingIcon -->
+                  <span class="method-name">TC_API_Testing_08_APITestingIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_10_ContactUsIcon">
+                  </a> <!-- TC_API_Testing_10_ContactUsIcon -->
+                  <span class="method-name">TC_API_Testing_10_ContactUsIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_11_SubscriptionSection">
+                  </a> <!-- TC_API_Testing_11_SubscriptionSection -->
+                  <span class="method-name">TC_API_Testing_11_SubscriptionSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_12_APISectionExpands">
+                  </a> <!-- TC_API_Testing_12_APISectionExpands -->
+                  <span class="method-name">TC_API_Testing_12_APISectionExpands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_13_APISectionCollapses">
+                  </a> <!-- TC_API_Testing_13_APISectionCollapses -->
+                  <span class="method-name">TC_API_Testing_13_APISectionCollapses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_14_ScrollFunctionality">
+                  </a> <!-- TC_API_Testing_14_ScrollFunctionality -->
+                  <span class="method-name">TC_API_Testing_14_ScrollFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_15_APIURLsClickable">
+                  </a> <!-- TC_API_Testing_15_APIURLsClickable -->
+                  <span class="method-name">TC_API_Testing_15_APIURLsClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_16_ConsistentDesign">
+                  </a> <!-- TC_API_Testing_16_ConsistentDesign -->
+                  <span class="method-name">TC_API_Testing_16_ConsistentDesign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_API_Testing_17_RightClickNewTab">
+                  </a> <!-- TC_API_Testing_17_RightClickNewTab -->
+                  <span class="method-name">TC_API_Testing_17_RightClickNewTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ui.tests.ApiTestingPageTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_API_Testing_04_ProductsIconRedirect')
+data.setCell(0, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(0, 3, 20431);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_API_Testing_03_HomeIconRedirect')
+data.setCell(1, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(1, 3, 7627);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_API_Testing_01_NavigateToAPITesting')
+data.setCell(2, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(2, 3, 5020);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_API_Testing_09_VideoTutorialsIcon')
+data.setCell(3, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(3, 3, 2319);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_API_Testing_02_LogoRedirect')
+data.setCell(4, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(4, 3, 2056);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_API_Testing_10_ContactUsIcon')
+data.setCell(5, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(5, 3, 1694);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_API_Testing_05_CartIconRedirect')
+data.setCell(6, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(6, 3, 1685);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_API_Testing_06_SignupLoginIcon')
+data.setCell(7, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(7, 3, 1638);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_API_Testing_07_TestCasesIconRedirect')
+data.setCell(8, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(8, 3, 1455);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_API_Testing_08_APITestingIcon')
+data.setCell(9, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(9, 3, 761);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_API_Testing_17_RightClickNewTab')
+data.setCell(10, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(10, 3, 278);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_API_Testing_11_SubscriptionSection')
+data.setCell(11, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(11, 3, 212);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_API_Testing_13_APISectionCollapses')
+data.setCell(12, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(12, 3, 54);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_API_Testing_12_APISectionExpands')
+data.setCell(13, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(13, 3, 46);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_API_Testing_15_APIURLsClickable')
+data.setCell(14, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(14, 3, 35);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_API_Testing_16_ConsistentDesign')
+data.setCell(15, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(15, 3, 6);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_API_Testing_14_ScrollFunctionality')
+data.setCell(16, 2, 'com.ui.tests.ApiTestingPageTestSuite')
+data.setCell(16, 3, 5);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.ApiTestingPageTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">7131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_01_NavigateToAPITesting</span>
+                <span class="method-start">8278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">13551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_API_Testing_02_LogoRedirect</span>
+                <span class="method-start">13554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">15773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_03_HomeIconRedirect</span>
+                <span class="method-start">15776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">23686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_04_ProductsIconRedirect</span>
+                <span class="method-start">25013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">45642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_05_CartIconRedirect</span>
+                <span class="method-start">46877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">48714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_06_SignupLoginIcon</span>
+                <span class="method-start">49418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">51188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_07_TestCasesIconRedirect</span>
+                <span class="method-start">53208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">54825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_08_APITestingIcon</span>
+                <span class="method-start">55579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">56487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_API_Testing_09_VideoTutorialsIcon</span>
+                <span class="method-start">56489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">59080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_10_ContactUsIcon</span>
+                <span class="method-start">60067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">61928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_11_SubscriptionSection</span>
+                <span class="method-start">63052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">63393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_12_APISectionExpands</span>
+                <span class="method-start">63396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">63560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_13_APISectionCollapses</span>
+                <span class="method-start">63563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">63739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_14_ScrollFunctionality</span>
+                <span class="method-start">63741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">63872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_15_APIURLsClickable</span>
+                <span class="method-start">63874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">64039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_16_ConsistentDesign</span>
+                <span class="method-start">64041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ensureOnApiPage</span>
+                <span class="method-start">64191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_API_Testing_17_RightClickNewTab</span>
+                <span class="method-start">64194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">64588 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

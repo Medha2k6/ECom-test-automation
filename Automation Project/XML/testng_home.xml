@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestCasesPageSuite" parallel="false" thread-count="1">
+    <listeners>
+        <listener class-name="com.ui.listeners.ExtentTestListener"/>
+    </listeners>
+    
+    <test name="TestCasesPageTest">
+        <classes>
+            <class name="com.ui.tests.HomePageTestSuite"/>
+        </classes>
+    </test>
+</suite>

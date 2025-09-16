@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Keerthana\AppData\Local\Temp\testng-eclipse-1769171271\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 1 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Duplicate Email Subscription, ActionType=double_subscription, ExpectedText=, Expect...)">executeDataDrivenApiTest({TestDescription=Duplicate Email Subscription, ActionType=double_subscription, ExpectedText=, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Test Cases Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=test_cases, ...)">executeDataDrivenApiTest({TestDescription=Test Cases Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=test_cases, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Logo Redirect to Homepage, ActionType=click, ExpectedText=, ExpectedURL=https://aut...)">executeDataDrivenApiTest({TestDescription=Logo Redirect to Homepage, ActionType=click, ExpectedText=, ExpectedURL=https://aut...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Video Tutorials Icon, ActionType=click, ExpectedText=, ExpectedURL=youtube,video, V...)">executeDataDrivenApiTest({TestDescription=Video Tutorials Icon, ActionType=click, ExpectedText=, ExpectedURL=youtube,video, V...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=API URLs Clickable, ActionType=expand_and_click_url, ExpectedText=, ExpectedURL=htt...)">executeDataDrivenApiTest({TestDescription=API URLs Clickable, ActionType=expand_and_click_url, ExpectedText=, ExpectedURL=htt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Special Characters in Email, ActionType=sendkeys_and_click, ExpectedText=, Expected...)">executeDataDrivenApiTest({TestDescription=Special Characters in Email, ActionType=sendkeys_and_click, ExpectedText=, Expected...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Consistent Design, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Valida...)">executeDataDrivenApiTest({TestDescription=Consistent Design, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Valida...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Contact Us Icon, ActionType=click, ExpectedText=, ExpectedURL=contact_us, Validatio...)">executeDataDrivenApiTest({TestDescription=Contact Us Icon, ActionType=click, ExpectedText=, ExpectedURL=contact_us, Validatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Navigate to API Testing page, ActionType=click, ExpectedText=, ExpectedURL=api_list...)">executeDataDrivenApiTest({TestDescription=Navigate to API Testing page, ActionType=click, ExpectedText=, ExpectedURL=api_list...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=API Section Collapses, ActionType=double_click, ExpectedText=, ExpectedURL=, Valida...)">executeDataDrivenApiTest({TestDescription=API Section Collapses, ActionType=double_click, ExpectedText=, ExpectedURL=, Valida...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Right Click New Tab, ActionType=right_click, ExpectedText=, ExpectedURL=, Validatio...)">executeDataDrivenApiTest({TestDescription=Right Click New Tab, ActionType=right_click, ExpectedText=, ExpectedURL=, Validatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Valid Email Subscription, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL...)">executeDataDrivenApiTest({TestDescription=Valid Email Subscription, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Home Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=https://automation...)">executeDataDrivenApiTest({TestDescription=Home Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=https://automation...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Subscription Section, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Val...)">executeDataDrivenApiTest({TestDescription=Subscription Section, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=API Section Expands, ActionType=click, ExpectedText=, ExpectedURL=URL,Method,Parame...)">executeDataDrivenApiTest({TestDescription=API Section Expands, ActionType=click, ExpectedText=, ExpectedURL=URL,Method,Parame...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Signup/Login Icon, ActionType=click, ExpectedText=, ExpectedURL=login, ValidationMe...)">executeDataDrivenApiTest({TestDescription=Signup/Login Icon, ActionType=click, ExpectedText=, ExpectedURL=login, ValidationMe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=API Testing Icon, ActionType=click, ExpectedText=, ExpectedURL=api_list, Validation...)">executeDataDrivenApiTest({TestDescription=API Testing Icon, ActionType=click, ExpectedText=, ExpectedURL=api_list, Validation...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestCaseID=Important Notes:})">executeDataDrivenApiTest({TestCaseID=Important Notes:})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Empty Email Field, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=fill,r...)">executeDataDrivenApiTest({TestDescription=Empty Email Field, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=fill,r...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Cart Icon Redirect, ActionType=click, ExpectedText=Shopping Cart, ExpectedURL=view_...)">executeDataDrivenApiTest({TestDescription=Cart Icon Redirect, ActionType=click, ExpectedText=Shopping Cart, ExpectedURL=view_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Scroll Functionality, ActionType=scroll, ExpectedText=, ExpectedURL=, ValidationMet...)">executeDataDrivenApiTest({TestDescription=Scroll Functionality, ActionType=scroll, ExpectedText=, ExpectedURL=, ValidationMet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Products Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=products, Vali...)">executeDataDrivenApiTest({TestDescription=Products Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=products, Vali...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Email Without @ Symbol, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@...)">executeDataDrivenApiTest({TestDescription=Email Without @ Symbol, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ui.datadriven.DataDrivenApiTestingPageTestSuite" class="method navigator-link" hash-for-method="executeDataDrivenApiTest({TestDescription=Long Email Validation, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=to...)">executeDataDrivenApiTest({TestDescription=Long Email Validation, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=to...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ui.datadriven.DataDrivenApiTestingPageTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Duplicate Email Subscription, ActionType=double_subscription, ExpectedText=, Expect...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Duplicate Email Subscription, ActionType=double_subscription, ExpectedText=, Expect...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Duplicate Email Subscription, ActionType=double_subscription, ExpectedText=, ExpectedURL=already subscribed, ValidationMethod=text_contains_or_fail, TestCaseID=TC_API_Testing_23, TestCaseName=DuplicateEmailSubscription, InputData=duplicate@example.com, ElementXPath=susbscribe_email})</span>
+                  <div class="stack-trace">java.lang.AssertionError: BUG DETECTED: Duplicate email subscription allowed - no duplicate detection implemented
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.ui.datadriven.DataDrivenApiTestingPageTestSuite.executeDataDrivenApiTest(DataDrivenApiTestingPageTestSuite.java:572)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.datadriven.DataDrivenApiTestingPageTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Test Cases Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=test_cases, ...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Test Cases Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=test_cases, ...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Test Cases Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=test_cases, ValidationMethod=url_contains, TestCaseID=TC_API_Testing_07, TestCaseName=TestCasesIconRedirect, InputData=, ElementXPath=//a[contains(text(),'Test Cases')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Logo Redirect to Homepage, ActionType=click, ExpectedText=, ExpectedURL=https://aut...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Logo Redirect to Homepage, ActionType=click, ExpectedText=, ExpectedURL=https://aut...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Logo Redirect to Homepage, ActionType=click, ExpectedText=, ExpectedURL=https://automationexercise.com/, ValidationMethod=url_exact, TestCaseID=TC_API_Testing_02, TestCaseName=LogoRedirect, InputData=, ElementXPath=//img[@alt='Website for automation practice']})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Video Tutorials Icon, ActionType=click, ExpectedText=, ExpectedURL=youtube,video, V...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Video Tutorials Icon, ActionType=click, ExpectedText=, ExpectedURL=youtube,video, V...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Video Tutorials Icon, ActionType=click, ExpectedText=, ExpectedURL=youtube,video, ValidationMethod=url_or_title_contains, TestCaseID=TC_API_Testing_09, TestCaseName=VideoTutorialsIcon, InputData=, ElementXPath=//a[contains(text(),'Video Tutorials')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=API URLs Clickable, ActionType=expand_and_click_url, ExpectedText=, ExpectedURL=htt...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=API URLs Clickable, ActionType=expand_and_click_url, ExpectedText=, ExpectedURL=htt...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=API URLs Clickable, ActionType=expand_and_click_url, ExpectedText=, ExpectedURL=http, ValidationMethod=url_or_tab, TestCaseID=TC_API_Testing_15, TestCaseName=APIURLsClickable, InputData=, ElementXPath=//div[contains(@class,'panel')]//h4})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Special Characters in Email, ActionType=sendkeys_and_click, ExpectedText=, Expected...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Special Characters in Email, ActionType=sendkeys_and_click, ExpectedText=, Expected...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Special Characters in Email, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@, ValidationMethod=validation_message, TestCaseID=TC_API_Testing_20, TestCaseName=SpecialCharactersInEmail, InputData=invalid@domain#$.com, ElementXPath=susbscribe_email})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Consistent Design, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Valida...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Consistent Design, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Valida...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Consistent Design, ActionType=visibility_check, ExpectedText=, ExpectedURL=, ValidationMethod=elements_visible, TestCaseID=TC_API_Testing_16, TestCaseName=ConsistentDesign, InputData=, ElementXPath=//div[contains(@class,'panel')]//h4})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Contact Us Icon, ActionType=click, ExpectedText=, ExpectedURL=contact_us, Validatio...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Contact Us Icon, ActionType=click, ExpectedText=, ExpectedURL=contact_us, Validatio...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Contact Us Icon, ActionType=click, ExpectedText=, ExpectedURL=contact_us, ValidationMethod=url_contains, TestCaseID=TC_API_Testing_10, TestCaseName=ContactUsIcon, InputData=, ElementXPath=//a[contains(text(),'Contact us')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Navigate to API Testing page, ActionType=click, ExpectedText=, ExpectedURL=api_list...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Navigate to API Testing page, ActionType=click, ExpectedText=, ExpectedURL=api_list...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Navigate to API Testing page, ActionType=click, ExpectedText=, ExpectedURL=api_list, ValidationMethod=url_contains, TestCaseID=TC_API_Testing_01, TestCaseName=NavigateToAPITesting, InputData=, ElementXPath=//a[contains(text(),'API Testing')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=API Section Collapses, ActionType=double_click, ExpectedText=, ExpectedURL=, Valida...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=API Section Collapses, ActionType=double_click, ExpectedText=, ExpectedURL=, Valida...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=API Section Collapses, ActionType=double_click, ExpectedText=, ExpectedURL=, ValidationMethod=no_exception, TestCaseID=TC_API_Testing_13, TestCaseName=APISectionCollapses, InputData=, ElementXPath=//div[contains(@class,'panel')]//h4})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Right Click New Tab, ActionType=right_click, ExpectedText=, ExpectedURL=, Validatio...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Right Click New Tab, ActionType=right_click, ExpectedText=, ExpectedURL=, Validatio...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Right Click New Tab, ActionType=right_click, ExpectedText=, ExpectedURL=, ValidationMethod=no_exception, TestCaseID=TC_API_Testing_17, TestCaseName=RightClickNewTab, InputData=, ElementXPath=//div[contains(@class,'panel')]//h4})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Valid Email Subscription, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Valid Email Subscription, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Valid Email Subscription, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=you have been successfully subscribed, ValidationMethod=text_contains, TestCaseID=TC_API_Testing_18, TestCaseName=ValidEmailSubscription, InputData=test@example.com, ElementXPath=susbscribe_email})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Home Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=https://automation...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Home Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=https://automation...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Home Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=https://automationexercise.com/, ValidationMethod=url_exact, TestCaseID=TC_API_Testing_03, TestCaseName=HomeIconRedirect, InputData=, ElementXPath=//a[contains(text(),'Home')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Subscription Section, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Val...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Subscription Section, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Val...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Subscription Section, ActionType=visibility_check, ExpectedText=, ExpectedURL=, ValidationMethod=element_displayed, TestCaseID=TC_API_Testing_11, TestCaseName=SubscriptionSection, InputData=, ElementXPath=susbscribe_email})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=API Section Expands, ActionType=click, ExpectedText=, ExpectedURL=URL,Method,Parame...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=API Section Expands, ActionType=click, ExpectedText=, ExpectedURL=URL,Method,Parame...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=API Section Expands, ActionType=click, ExpectedText=, ExpectedURL=URL,Method,Parameter, ValidationMethod=text_contains, TestCaseID=TC_API_Testing_12, TestCaseName=APISectionExpands, InputData=, ElementXPath=//div[contains(@class,'panel')]//h4})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Signup/Login Icon, ActionType=click, ExpectedText=, ExpectedURL=login, ValidationMe...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Signup/Login Icon, ActionType=click, ExpectedText=, ExpectedURL=login, ValidationMe...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Signup/Login Icon, ActionType=click, ExpectedText=, ExpectedURL=login, ValidationMethod=url_contains, TestCaseID=TC_API_Testing_06, TestCaseName=SignupLoginIcon, InputData=, ElementXPath=//a[contains(text(),'Signup') or contains(text(),'Login')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=API Testing Icon, ActionType=click, ExpectedText=, ExpectedURL=api_list, Validation...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=API Testing Icon, ActionType=click, ExpectedText=, ExpectedURL=api_list, Validation...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=API Testing Icon, ActionType=click, ExpectedText=, ExpectedURL=api_list, ValidationMethod=url_contains, TestCaseID=TC_API_Testing_08, TestCaseName=APITestingIcon, InputData=, ElementXPath=//a[contains(text(),'API Testing')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestCaseID=Important Notes:})">
+                  </a> <!-- executeDataDrivenApiTest({TestCaseID=Important Notes:}) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestCaseID=Important Notes:})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Empty Email Field, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=fill,r...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Empty Email Field, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=fill,r...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Empty Email Field, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=fill,required, ValidationMethod=validation_message, TestCaseID=TC_API_Testing_22, TestCaseName=EmptyEmailField, InputData=, ElementXPath=susbscribe_email})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Cart Icon Redirect, ActionType=click, ExpectedText=Shopping Cart, ExpectedURL=view_...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Cart Icon Redirect, ActionType=click, ExpectedText=Shopping Cart, ExpectedURL=view_...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Cart Icon Redirect, ActionType=click, ExpectedText=Shopping Cart, ExpectedURL=view_cart, ValidationMethod=url_or_text, TestCaseID=TC_API_Testing_05, TestCaseName=CartIconRedirect, InputData=, ElementXPath=//a[contains(text(),'Cart')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Scroll Functionality, ActionType=scroll, ExpectedText=, ExpectedURL=, ValidationMet...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Scroll Functionality, ActionType=scroll, ExpectedText=, ExpectedURL=, ValidationMet...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Scroll Functionality, ActionType=scroll, ExpectedText=, ExpectedURL=, ValidationMethod=scroll_validation, TestCaseID=TC_API_Testing_14, TestCaseName=ScrollFunctionality, InputData=, ElementXPath=})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Products Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=products, Vali...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Products Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=products, Vali...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Products Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=products, ValidationMethod=url_contains, TestCaseID=TC_API_Testing_04, TestCaseName=ProductsIconRedirect, InputData=, ElementXPath=//a[contains(text(),'Products')]})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Email Without @ Symbol, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Email Without @ Symbol, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Email Without @ Symbol, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@, ValidationMethod=validation_message, TestCaseID=TC_API_Testing_19, TestCaseName=EmailWithoutAtSymbol, InputData=invalidemail.com, ElementXPath=susbscribe_email})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeDataDrivenApiTest({TestDescription=Long Email Validation, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=to...)">
+                  </a> <!-- executeDataDrivenApiTest({TestDescription=Long Email Validation, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=to...) -->
+                  <span class="method-name">executeDataDrivenApiTest</span>
+                  <span class="parameters">({TestDescription=Long Email Validation, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=too long, ValidationMethod=length_or_text, TestCaseID=TC_API_Testing_21, TestCaseName=LongEmail, InputData=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com, ElementXPath=susbscribe_email})</span>
+                  <em>
+(Data-driven API Testing Page Test Execution)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Keerthana\AppData\Local\Temp\testng-eclipse-1769171271\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ui.datadriven.DataDrivenApiTestingPageTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'executeDataDrivenApiTest')
+data.setCell(0, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(0, 3, 15484);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'executeDataDrivenApiTest')
+data.setCell(1, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(1, 3, 15251);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'executeDataDrivenApiTest')
+data.setCell(2, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(2, 3, 15184);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'executeDataDrivenApiTest')
+data.setCell(3, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(3, 3, 9471);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'executeDataDrivenApiTest')
+data.setCell(4, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(4, 3, 8959);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'executeDataDrivenApiTest')
+data.setCell(5, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(5, 3, 8397);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'executeDataDrivenApiTest')
+data.setCell(6, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(6, 3, 8030);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'executeDataDrivenApiTest')
+data.setCell(7, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(7, 3, 7833);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'executeDataDrivenApiTest')
+data.setCell(8, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(8, 3, 7711);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'executeDataDrivenApiTest')
+data.setCell(9, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(9, 3, 7586);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'executeDataDrivenApiTest')
+data.setCell(10, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(10, 3, 7578);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'executeDataDrivenApiTest')
+data.setCell(11, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(11, 3, 7381);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'executeDataDrivenApiTest')
+data.setCell(12, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(12, 3, 7213);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'executeDataDrivenApiTest')
+data.setCell(13, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(13, 3, 7028);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'executeDataDrivenApiTest')
+data.setCell(14, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(14, 3, 6852);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'executeDataDrivenApiTest')
+data.setCell(15, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(15, 3, 6509);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'executeDataDrivenApiTest')
+data.setCell(16, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(16, 3, 6505);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'executeDataDrivenApiTest')
+data.setCell(17, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(17, 3, 6471);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'executeDataDrivenApiTest')
+data.setCell(18, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(18, 3, 6333);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'executeDataDrivenApiTest')
+data.setCell(19, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(19, 3, 6119);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'executeDataDrivenApiTest')
+data.setCell(20, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(20, 3, 6080);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'executeDataDrivenApiTest')
+data.setCell(21, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(21, 3, 2734);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'executeDataDrivenApiTest')
+data.setCell(22, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(22, 3, 2587);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'executeDataDrivenApiTest')
+data.setCell(23, 2, 'com.ui.datadriven.DataDrivenApiTestingPageTestSuite')
+data.setCell(23, 3, 2544);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.datadriven.DataDrivenApiTestingPageTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">1948 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Navigate to API Testing page, ActionType=click, ExpectedText=, ExpectedURL=api_list...)</span>
+                <span class="method-start">12590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Logo Redirect to Homepage, ActionType=click, ExpectedText=, ExpectedURL=https://aut...)</span>
+                <span class="method-start">19248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Home Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=https://automation...)</span>
+                <span class="method-start">35114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Products Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=products, Vali...)</span>
+                <span class="method-start">44305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Cart Icon Redirect, ActionType=click, ExpectedText=Shopping Cart, ExpectedURL=view_...)</span>
+                <span class="method-start">51308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Signup/Login Icon, ActionType=click, ExpectedText=, ExpectedURL=login, ValidationMe...)</span>
+                <span class="method-start">57940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Test Cases Icon Redirect, ActionType=click, ExpectedText=, ExpectedURL=test_cases, ...)</span>
+                <span class="method-start">65842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=API Testing Icon, ActionType=click, ExpectedText=, ExpectedURL=api_list, Validation...)</span>
+                <span class="method-start">72486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Video Tutorials Icon, ActionType=click, ExpectedText=, ExpectedURL=youtube,video, V...)</span>
+                <span class="method-start">78697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Contact Us Icon, ActionType=click, ExpectedText=, ExpectedURL=contact_us, Validatio...)</span>
+                <span class="method-start">88678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Subscription Section, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Val...)</span>
+                <span class="method-start">97273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=API Section Expands, ActionType=click, ExpectedText=, ExpectedURL=URL,Method,Parame...)</span>
+                <span class="method-start">100123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=API Section Collapses, ActionType=double_click, ExpectedText=, ExpectedURL=, Valida...)</span>
+                <span class="method-start">106481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Scroll Functionality, ActionType=scroll, ExpectedText=, ExpectedURL=, ValidationMet...)</span>
+                <span class="method-start">113789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=API URLs Clickable, ActionType=expand_and_click_url, ExpectedText=, ExpectedURL=htt...)</span>
+                <span class="method-start">121749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Consistent Design, ActionType=visibility_check, ExpectedText=, ExpectedURL=, Valida...)</span>
+                <span class="method-start">137447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Right Click New Tab, ActionType=right_click, ExpectedText=, ExpectedURL=, Validatio...)</span>
+                <span class="method-start">140332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Valid Email Subscription, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL...)</span>
+                <span class="method-start">147647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Email Without @ Symbol, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=@...)</span>
+                <span class="method-start">155964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Special Characters in Email, ActionType=sendkeys_and_click, ExpectedText=, Expected...)</span>
+                <span class="method-start">163574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Long Email Validation, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=to...)</span>
+                <span class="method-start">171564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Empty Email Field, ActionType=sendkeys_and_click, ExpectedText=, ExpectedURL=fill,r...)</span>
+                <span class="method-start">179321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeDataDrivenApiTest({TestDescription=Duplicate Email Subscription, ActionType=double_subscription, ExpectedText=, Expect...)</span>
+                <span class="method-start">186801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeDataDrivenApiTest({TestCaseID=Important Notes:})</span>
+                <span class="method-start">202515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">205310 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">210128 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

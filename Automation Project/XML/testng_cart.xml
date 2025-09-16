@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CartPageTestSuite" parallel="false" thread-count="1">
+    <listeners>
+        <listener class-name="com.ui.listeners.ExtentTestNGListener"/>
+    </listeners>
+    
+    <test name="CartPageTest">
+        <classes>
+            <class name="com.ui.tests.CartPageTest"/>
+        </classes>
+    </test>
+</suite>

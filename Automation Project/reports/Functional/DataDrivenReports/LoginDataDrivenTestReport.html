@@ -1,0 +1,1455 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sept 15, 2025 10:22:42 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 1</p>
+            <p class="text-sm">
+              <span>10:22:45 am</span> / <span>00:00:11:990</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 1</h5>
+<span class='badge badge-success'>09.15.2025 10:22:45 am</span>
+<span class='badge badge-danger'>09.15.2025 10:22:57 am</span>
+<span class='badge badge-default'>00:00:11:990</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:22:45 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:22:54 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:22:54 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Logout Delete Account Test Cases API Testing Video Tutorials Contact us Logged in as Keerthana AutomationExercise Full-Fledged practice website for Automation Engineers All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills. Test Cases APIs list for practice CATEGORY WOMEN MEN KIDS BRANDS (6) POLO (5) H&M (5) MADAME (3) MAST & HARBOUR (4) B
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:22:54 am</td>
+        <td>
+          Login succeeded as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:22:57 am</td>
+        <td>
+          Logged out after success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 2</p>
+            <p class="text-sm">
+              <span>10:22:57 am</span> / <span>00:00:09:888</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 2</h5>
+<span class='badge badge-success'>09.15.2025 10:22:57 am</span>
+<span class='badge badge-danger'>09.15.2025 10:23:07 am</span>
+<span class='badge badge-default'>00:00:09:888</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:22:57 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'WrongPassword'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:02 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:07 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:23:07 am</td>
+        <td>
+          Login failed as expected for invalid credentials.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 3</p>
+            <p class="text-sm">
+              <span>10:23:07 am</span> / <span>00:00:10:784</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 3</h5>
+<span class='badge badge-success'>09.15.2025 10:23:07 am</span>
+<span class='badge badge-danger'>09.15.2025 10:23:18 am</span>
+<span class='badge badge-default'>00:00:10:784</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:07 am</td>
+        <td>
+          Username: 'invaliduser@example.com', Password: 'anyPassword'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:13 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:18 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:23:18 am</td>
+        <td>
+          Login failed as expected for invalid credentials.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 4</p>
+            <p class="text-sm">
+              <span>10:23:18 am</span> / <span>00:00:09:738</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 4</h5>
+<span class='badge badge-success'>09.15.2025 10:23:18 am</span>
+<span class='badge badge-danger'>09.15.2025 10:23:28 am</span>
+<span class='badge badge-default'>00:00:09:738</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:18 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: ''
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:23 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:28 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:23:28 am</td>
+        <td>
+          Login failed as expected for invalid credentials.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 5</p>
+            <p class="text-sm">
+              <span>10:23:28 am</span> / <span>00:00:08:940</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 5</h5>
+<span class='badge badge-success'>09.15.2025 10:23:28 am</span>
+<span class='badge badge-danger'>09.15.2025 10:23:37 am</span>
+<span class='badge badge-default'>00:00:08:940</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:28 am</td>
+        <td>
+          Username: '', Password: 'somePassword'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:32 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:37 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:23:37 am</td>
+        <td>
+          Login failed as expected for invalid credentials.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 6</p>
+            <p class="text-sm">
+              <span>10:23:37 am</span> / <span>00:00:10:149</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 6</h5>
+<span class='badge badge-success'>09.15.2025 10:23:37 am</span>
+<span class='badge badge-danger'>09.15.2025 10:23:47 am</span>
+<span class='badge badge-default'>00:00:10:149</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_6_FAIL_20250915_102347.png' src="./screenshots/login_failures/fail/Login_Test_Case_6_FAIL_20250915_102347.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:37 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'ABC@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:42 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:47 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:23:47 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 7</p>
+            <p class="text-sm">
+              <span>10:23:47 am</span> / <span>00:00:11:667</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 7</h5>
+<span class='badge badge-success'>09.15.2025 10:23:47 am</span>
+<span class='badge badge-danger'>09.15.2025 10:23:59 am</span>
+<span class='badge badge-default'>00:00:11:667</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_7_FAIL_20250915_102358.png' src="./screenshots/login_failures/fail/Login_Test_Case_7_FAIL_20250915_102358.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:47 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'a b c@ 1 2 3'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:53 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:58 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:23:58 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 8</p>
+            <p class="text-sm">
+              <span>10:23:59 am</span> / <span>00:00:11:825</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 8</h5>
+<span class='badge badge-success'>09.15.2025 10:23:59 am</span>
+<span class='badge badge-danger'>09.15.2025 10:24:10 am</span>
+<span class='badge badge-default'>00:00:11:825</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_8_FAIL_20250915_102410.png' src="./screenshots/login_failures/fail/Login_Test_Case_8_FAIL_20250915_102410.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:23:59 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'pass@!#$%'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:05 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:10 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:24:10 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 9</p>
+            <p class="text-sm">
+              <span>10:24:10 am</span> / <span>00:00:13:944</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 9</h5>
+<span class='badge badge-success'>09.15.2025 10:24:10 am</span>
+<span class='badge badge-danger'>09.15.2025 10:24:24 am</span>
+<span class='badge badge-default'>00:00:13:944</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_9_FAIL_20250915_102424.png' src="./screenshots/login_failures/fail/Login_Test_Case_9_FAIL_20250915_102424.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:10 am</td>
+        <td>
+          Username: 'user_with_long_email_longusername@exampledomain.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:19 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:24 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:24:24 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 10</p>
+            <p class="text-sm">
+              <span>10:24:24 am</span> / <span>00:00:20:839</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 10</h5>
+<span class='badge badge-success'>09.15.2025 10:24:24 am</span>
+<span class='badge badge-danger'>09.15.2025 10:24:45 am</span>
+<span class='badge badge-default'>00:00:20:839</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:24 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:42 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:42 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Logout Delete Account Test Cases API Testing Video Tutorials Contact us Logged in as Keerthana AutomationExercise Full-Fledged practice website for Automation Engineers All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills. Test Cases APIs list for practice CATEGORY WOMEN MEN KIDS BRANDS (6) POLO (5) H&M (5) MADAME (3) MAST & HARBOUR (4) B
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:24:42 am</td>
+        <td>
+          Login succeeded as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:45 am</td>
+        <td>
+          Logged out after success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 11</p>
+            <p class="text-sm">
+              <span>10:24:45 am</span> / <span>00:00:11:014</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 11</h5>
+<span class='badge badge-success'>09.15.2025 10:24:45 am</span>
+<span class='badge badge-danger'>09.15.2025 10:24:56 am</span>
+<span class='badge badge-default'>00:00:11:014</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:45 am</td>
+        <td>
+          Username: 'injection@example.com', Password: '' OR '1'='1'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:51 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:56 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:24:56 am</td>
+        <td>
+          Login failed as expected for invalid credentials.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 12</p>
+            <p class="text-sm">
+              <span>10:24:56 am</span> / <span>00:00:12:217</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 12</h5>
+<span class='badge badge-success'>09.15.2025 10:24:56 am</span>
+<span class='badge badge-danger'>09.15.2025 10:25:08 am</span>
+<span class='badge badge-default'>00:00:12:217</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_12_FAIL_20250915_102508.png' src="./screenshots/login_failures/fail/Login_Test_Case_12_FAIL_20250915_102508.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:56 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: '" OR "" = "'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:03 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:08 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:25:08 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 13</p>
+            <p class="text-sm">
+              <span>10:25:08 am</span> / <span>00:00:10:518</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 13</h5>
+<span class='badge badge-success'>09.15.2025 10:25:08 am</span>
+<span class='badge badge-danger'>09.15.2025 10:25:19 am</span>
+<span class='badge badge-default'>00:00:10:518</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:08 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:16 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:16 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Logout Delete Account Test Cases API Testing Video Tutorials Contact us Logged in as Keerthana AutomationExercise Full-Fledged practice website for Automation Engineers All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills. Test Cases APIs list for practice CATEGORY WOMEN MEN KIDS BRANDS (6) POLO (5) H&M (5) MADAME (3) MAST & HARBOUR (4) B
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:25:16 am</td>
+        <td>
+          Login succeeded as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:19 am</td>
+        <td>
+          Logged out after success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 14</p>
+            <p class="text-sm">
+              <span>10:25:19 am</span> / <span>00:00:26:110</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 14</h5>
+<span class='badge badge-success'>09.15.2025 10:25:19 am</span>
+<span class='badge badge-danger'>09.15.2025 10:25:45 am</span>
+<span class='badge badge-default'>00:00:26:110</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:19 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:40 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:40 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Logout Delete Account Test Cases API Testing Video Tutorials Contact us Logged in as Keerthana AutomationExercise Full-Fledged practice website for Automation Engineers All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills. Test Cases APIs list for practice CATEGORY WOMEN MEN KIDS BRANDS (6) POLO (5) H&M (5) MADAME (3) MAST & HARBOUR (4) B
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:25:40 am</td>
+        <td>
+          Login succeeded as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:45 am</td>
+        <td>
+          Logged out after success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 15</p>
+            <p class="text-sm">
+              <span>10:25:45 am</span> / <span>00:00:09:855</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 15</h5>
+<span class='badge badge-success'>09.15.2025 10:25:45 am</span>
+<span class='badge badge-danger'>09.15.2025 10:25:55 am</span>
+<span class='badge badge-default'>00:00:09:855</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_15_FAIL_20250915_102555.png' src="./screenshots/login_failures/fail/Login_Test_Case_15_FAIL_20250915_102555.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:45 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'NULL'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:50 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:55 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:25:55 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 16</p>
+            <p class="text-sm">
+              <span>10:25:55 am</span> / <span>00:00:11:714</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 16</h5>
+<span class='badge badge-success'>09.15.2025 10:25:55 am</span>
+<span class='badge badge-danger'>09.15.2025 10:26:07 am</span>
+<span class='badge badge-default'>00:00:11:714</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_16_FAIL_20250915_102606.png' src="./screenshots/login_failures/fail/Login_Test_Case_16_FAIL_20250915_102606.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:55 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: '"'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:01 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:06 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:26:06 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 17</p>
+            <p class="text-sm">
+              <span>10:26:07 am</span> / <span>00:00:09:543</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 17</h5>
+<span class='badge badge-success'>09.15.2025 10:26:07 am</span>
+<span class='badge badge-danger'>09.15.2025 10:26:16 am</span>
+<span class='badge badge-default'>00:00:09:543</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_17_FAIL_20250915_102616.png' src="./screenshots/login_failures/fail/Login_Test_Case_17_FAIL_20250915_102616.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:07 am</td>
+        <td>
+          Username: 'srimedha@exam_ple.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:11 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:16 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:26:16 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 18</p>
+            <p class="text-sm">
+              <span>10:26:16 am</span> / <span>00:00:11:763</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Test - Case 18</h5>
+<span class='badge badge-success'>09.15.2025 10:26:16 am</span>
+<span class='badge badge-danger'>09.15.2025 10:26:28 am</span>
+<span class='badge badge-default'>00:00:11:763</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/login_failures/fail/Login_Test_Case_18_FAIL_20250915_102628.png' src="./screenshots/login_failures/fail/Login_Test_Case_18_FAIL_20250915_102628.png">
+    <div class="title">Failed Screenshot</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:16 am</td>
+        <td>
+          Username: 'srimedha+test@example.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:23 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:28 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Signup / Login Test Cases API Testing Video Tutorials Contact us Login to your account Your email or password is incorrect! Login OR New User Signup! Signup SUBSCRIPTION Get the most recent updates from our site and be updated your self... Copyright © 2021 All rights reserved
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:26:28 am</td>
+        <td>
+          Assertion failed: Expected login success, but it failed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Case 19</p>
+            <p class="text-sm">
+              <span>10:26:28 am</span> / <span>00:00:09:799</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Case 19</h5>
+<span class='badge badge-success'>09.15.2025 10:26:28 am</span>
+<span class='badge badge-danger'>09.15.2025 10:26:38 am</span>
+<span class='badge badge-default'>00:00:09:799</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:28 am</td>
+        <td>
+          Username: 'keerthanashetty0024@gmail.com', Password: 'abc@123'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:35 am</td>
+        <td>
+          Current URL after login: https://automationexercise.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:35 am</td>
+        <td>
+          Page BODY text (first 500 chars): Home  Products Cart Logout Delete Account Test Cases API Testing Video Tutorials Contact us Logged in as Keerthana AutomationExercise Full-Fledged practice website for Automation Engineers All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills. Test Cases APIs list for practice CATEGORY WOMEN MEN KIDS BRANDS (6) POLO (5) H&M (5) MADAME (3) MAST & HARBOUR (4) B
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:26:35 am</td>
+        <td>
+          Login succeeded as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:26:38 am</td>
+        <td>
+          Logged out after success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sept 15, 2025 10:22:42 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sept 15, 2025 10:26:38 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>9</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='52%'>
+<b>10</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='47%'><b>9</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='12%'><b>10</b> events passed</small></div>
+<div>
+<small data-tooltip='11%'><b>9</b> events failed,
+<b data-tooltip='%'>62</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login Test - Case 1":11.99,"Login Test - Case 2":9.888,"Login Test - Case 3":10.784,"Login Test - Case 4":9.738,"Login Test - Case 5":8.94,"Login Test - Case 6":10.149,"Login Test - Case 7":11.667,"Login Test - Case 8":11.825,"Login Test - Case 9":13.944,"Login Test - Case 10":20.839,"Login Test - Case 11":11.014,"Login Test - Case 12":12.217,"Login Test - Case 13":10.518,"Login Test - Case 14":26.11,"Login Test - Case 15":9.855,"Login Test - Case 16":11.714,"Login Test - Case 17":9.543,"Login Test - Case 18":11.763,"Login Test - Case 19":9.799
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 9,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 10,
+failEvents: 9,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 62
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

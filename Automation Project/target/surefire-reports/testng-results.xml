@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="15" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-16T15:14:25 IST" name="Surefire suite" finished-at="2025-09-16T15:15:30 IST" duration-ms="64936">
+    <groups>
+    </groups>
+    <test started-at="2025-09-16T15:14:25 IST" name="Surefire test" finished-at="2025-09-16T15:15:30 IST" duration-ms="64936">
+      <class name="com.ui.tests.ApiTestingPageTestSuite">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:25 IST" name="setup" finished-at="2025-09-16T15:14:32 IST" duration-ms="7101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:32 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:14:33 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_01_NavigateToAPITesting()[pri:1, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:33 IST" name="TC_API_Testing_01_NavigateToAPITesting" finished-at="2025-09-16T15:14:38 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_01_NavigateToAPITesting -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:38 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:14:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_02_LogoRedirect()[pri:2, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:38 IST" name="TC_API_Testing_02_LogoRedirect" finished-at="2025-09-16T15:14:40 IST" duration-ms="2056" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.ui.tests.ApiTestingPageTestSuite.TC_API_Testing_02_LogoRedirect(ApiTestingPageTestSuite.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_02_LogoRedirect -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:41 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:14:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_03_HomeIconRedirect()[pri:3, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:41 IST" name="TC_API_Testing_03_HomeIconRedirect" finished-at="2025-09-16T15:14:48 IST" duration-ms="7627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_03_HomeIconRedirect -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:48 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:14:50 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_04_ProductsIconRedirect()[pri:4, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:14:50 IST" name="TC_API_Testing_04_ProductsIconRedirect" finished-at="2025-09-16T15:15:10 IST" duration-ms="20431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_04_ProductsIconRedirect -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:10 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:12 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_05_CartIconRedirect()[pri:5, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:12 IST" name="TC_API_Testing_05_CartIconRedirect" finished-at="2025-09-16T15:15:13 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_05_CartIconRedirect -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:14 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:14 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_06_SignupLoginIcon()[pri:6, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:14 IST" name="TC_API_Testing_06_SignupLoginIcon" finished-at="2025-09-16T15:15:16 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_06_SignupLoginIcon -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:16 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:18 IST" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_07_TestCasesIconRedirect()[pri:7, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:18 IST" name="TC_API_Testing_07_TestCasesIconRedirect" finished-at="2025-09-16T15:15:19 IST" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_07_TestCasesIconRedirect -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:20 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:20 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_08_APITestingIcon()[pri:8, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:20 IST" name="TC_API_Testing_08_APITestingIcon" finished-at="2025-09-16T15:15:21 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_08_APITestingIcon -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:21 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_09_VideoTutorialsIcon()[pri:9, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:21 IST" name="TC_API_Testing_09_VideoTutorialsIcon" finished-at="2025-09-16T15:15:24 IST" duration-ms="2319" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.ui.tests.ApiTestingPageTestSuite.TC_API_Testing_09_VideoTutorialsIcon(ApiTestingPageTestSuite.java:158)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_09_VideoTutorialsIcon -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:24 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:25 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_10_ContactUsIcon()[pri:10, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:25 IST" name="TC_API_Testing_10_ContactUsIcon" finished-at="2025-09-16T15:15:27 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_10_ContactUsIcon -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:27 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:28 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_11_SubscriptionSection()[pri:11, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:28 IST" name="TC_API_Testing_11_SubscriptionSection" finished-at="2025-09-16T15:15:28 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_11_SubscriptionSection -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:28 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_12_APISectionExpands()[pri:12, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:28 IST" name="TC_API_Testing_12_APISectionExpands" finished-at="2025-09-16T15:15:28 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_12_APISectionExpands -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:28 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_13_APISectionCollapses()[pri:13, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:28 IST" name="TC_API_Testing_13_APISectionCollapses" finished-at="2025-09-16T15:15:28 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_13_APISectionCollapses -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_14_ScrollFunctionality()[pri:14, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="TC_API_Testing_14_ScrollFunctionality" finished-at="2025-09-16T15:15:29 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_14_ScrollFunctionality -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_15_APIURLsClickable()[pri:15, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="TC_API_Testing_15_APIURLsClickable" finished-at="2025-09-16T15:15:29 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_15_APIURLsClickable -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_16_ConsistentDesign()[pri:16, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="TC_API_Testing_16_ConsistentDesign" finished-at="2025-09-16T15:15:29 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_16_ConsistentDesign -->
+        <test-method is-config="true" signature="ensureOnApiPage()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="ensureOnApiPage" finished-at="2025-09-16T15:15:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureOnApiPage -->
+        <test-method signature="TC_API_Testing_17_RightClickNewTab()[pri:17, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="TC_API_Testing_17_RightClickNewTab" finished-at="2025-09-16T15:15:29 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_API_Testing_17_RightClickNewTab -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ui.tests.ApiTestingPageTestSuite@436a4e4b]" started-at="2025-09-16T15:15:29 IST" name="teardown" finished-at="2025-09-16T15:15:30 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ui.tests.ApiTestingPageTestSuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

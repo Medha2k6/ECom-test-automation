@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestCasesPageSuite]">
+  <listeners>
+    <listener class-name="com.ui.listeners.TestCasesExtentTestListener"/>
+  </listeners>
+  <test thread-count="1" name="TestCasesPageTest(failed)">
+    <classes>
+      <class name="com.ui.tests.TestCasesPageTestSuite">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="TC_Test_Cases_07_URLVisibleAndWorking"/>
+        </methods>
+      </class> <!-- com.ui.tests.TestCasesPageTestSuite -->
+    </classes>
+  </test> <!-- TestCasesPageTest(failed) -->
+</suite> <!-- Failed suite [TestCasesPageSuite] -->

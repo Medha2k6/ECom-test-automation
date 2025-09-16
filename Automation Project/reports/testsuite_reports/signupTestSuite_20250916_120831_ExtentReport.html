@@ -1,0 +1,1747 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Exercise Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">signupTestSuite Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">16/09/2025 12:08:31</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">QATeam</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Signup/LoginPageTests</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_15_HomeIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:08:36 pm</span> / <span>00:00:09:352</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_15_HomeIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:08:36 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:08:45 pm</span>
+<span class='badge badge-default'>00:00:09:352</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Home icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:36 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_15_HomeIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:36 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:36 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:38 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:41 pm</td>
+        <td>
+          Step 1: Clicking the Home icon.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:45 pm</td>
+        <td>
+          Step 2: Verifying if the current URL is the Home URL.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:08:45 pm</td>
+        <td>
+          Verification successful: The current URL is the home page URL.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:08:45 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_15_HomeIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_16_ProductsIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:08:45 pm</span> / <span>00:00:08:721</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_16_ProductsIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:08:45 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:08:54 pm</span>
+<span class='badge badge-default'>00:00:08:721</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Products icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:45 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_16_ProductsIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:45 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:45 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:48 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:51 pm</td>
+        <td>
+          Step 1: Clicking the Products icon.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:54 pm</td>
+        <td>
+          Step 2: Verifying if the current URL contains 'products'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:08:54 pm</td>
+        <td>
+          Verification successful: The URL contains 'products', indicating successful navigation.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:08:54 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_16_ProductsIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_17_CartIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:08:54 pm</span> / <span>00:00:09:273</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_17_CartIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:08:54 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:04 pm</span>
+<span class='badge badge-default'>00:00:09:273</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Cart icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:54 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_17_CartIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:54 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:54 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:08:58 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:01 pm</td>
+        <td>
+          Step 1: Clicking the Cart icon.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:04 pm</td>
+        <td>
+          Step 2: Verifying if the current URL contains 'view_cart' or the page source contains 'Shopping Cart'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:04 pm</td>
+        <td>
+          Verification successful: Navigated to the cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:04 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_17_CartIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_18_TestCasesIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:09:04 pm</span> / <span>00:00:06:713</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_18_TestCasesIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:09:04 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:11 pm</span>
+<span class='badge badge-default'>00:00:06:713</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Test Cases icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:04 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_18_TestCasesIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:04 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:04 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:06 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:09 pm</td>
+        <td>
+          Step 1: Clicking the 'Test Cases' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:11 pm</td>
+        <td>
+          Step 2: Waiting for the URL to contain 'test_cases'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:11 pm</td>
+        <td>
+          Verification successful: The URL contains 'test_cases'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:11 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_18_TestCasesIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_19_APITestingIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:09:11 pm</span> / <span>00:00:08:657</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_19_APITestingIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:09:11 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:19 pm</span>
+<span class='badge badge-default'>00:00:08:657</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of API Testing icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:11 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_19_APITestingIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:11 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:11 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:13 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:16 pm</td>
+        <td>
+          Step 1: Clicking the 'API Testing' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:19 pm</td>
+        <td>
+          Step 2: Verifying if the URL contains 'api_list'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:19 pm</td>
+        <td>
+          Verification successful: The URL contains 'api_list'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:19 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_19_APITestingIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_20_VideoTutorialsIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:09:19 pm</span> / <span>00:00:10:768</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_20_VideoTutorialsIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:09:19 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:30 pm</span>
+<span class='badge badge-default'>00:00:10:768</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Video Tutorials icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:19 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_20_VideoTutorialsIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:19 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:19 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:23 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:25 pm</td>
+        <td>
+          Step 1: Clicking the 'Video Tutorials' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:30 pm</td>
+        <td>
+          Step 2: Verifying if the URL or title contains 'youtube' or 'video'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:30 pm</td>
+        <td>
+          Verification successful: Navigated to a page related to video tutorials.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:30 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_20_VideoTutorialsIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_21_ContactUsIconFunctionality</p>
+            <p class="text-sm">
+              <span>12:09:30 pm</span> / <span>00:00:07:526</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_21_ContactUsIconFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:09:30 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:38 pm</span>
+<span class='badge badge-default'>00:00:07:526</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Contact Us icon on the home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:30 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_21_ContactUsIconFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:30 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:30 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:34 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:36 pm</td>
+        <td>
+          Step 1: Clicking the 'Contact Us' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:38 pm</td>
+        <td>
+          Step 2: Waiting for the URL to contain 'contact_us'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:38 pm</td>
+        <td>
+          Verification successful: The URL contains 'contact_us'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:38 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_21_ContactUsIconFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_25_PasswordFieldMasked</p>
+            <p class="text-sm">
+              <span>12:09:38 pm</span> / <span>00:00:05:657</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_25_PasswordFieldMasked</h5>
+<span class='badge badge-success'>09.16.2025 12:09:38 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:44 pm</span>
+<span class='badge badge-default'>00:00:05:657</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">To verify and validate that the password field is masked</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:38 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_25_PasswordFieldMasked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:38 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:38 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:41 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Step 1: Locating the login password field.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Step 2: Entering 'TestPassword123' into the password field.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Step 3: Checking the 'type' attribute of the password field to verify if it's masked.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Verification successful: The password field is masked as expected (type='password').
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_25_PasswordFieldMasked
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_27_AutomationExerciseLogoFunctionality</p>
+            <p class="text-sm">
+              <span>12:09:44 pm</span> / <span>00:00:09:845</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_27_AutomationExerciseLogoFunctionality</h5>
+<span class='badge badge-success'>09.16.2025 12:09:44 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:54 pm</span>
+<span class='badge badge-default'>00:00:09:845</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of the automation exercise on the website leads to homepage</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_27_AutomationExerciseLogoFunctionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:44 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:46 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:49 pm</td>
+        <td>
+          Step 1: Clicking the website logo.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:54 pm</td>
+        <td>
+          Step 2: Verifying if the URL is the home URL.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:54 pm</td>
+        <td>
+          Verification successful: Clicking the logo navigated back to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:54 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_27_AutomationExerciseLogoFunctionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_29_LoginSignupPageLoads</p>
+            <p class="text-sm">
+              <span>12:09:54 pm</span> / <span>00:00:05:234</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_29_LoginSignupPageLoads</h5>
+<span class='badge badge-success'>09.16.2025 12:09:54 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:09:59 pm</span>
+<span class='badge badge-default'>00:00:05:234</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">To verify and validate that the Login/SignUp page loads successfully</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:54 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_29_LoginSignupPageLoads
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:54 pm</td>
+        <td>
+          Pre-condition: Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:57 pm</td>
+        <td>
+          Step 1: Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:59 pm</td>
+        <td>
+          Step 2: Verifying that the URL contains 'login' and the page contains expected text.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:59 pm</td>
+        <td>
+          Verification successful: The Login/Signup page loaded correctly.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:09:59 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_29_LoginSignupPageLoads
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_30_LoginAccountSectionPresence</p>
+            <p class="text-sm">
+              <span>12:09:59 pm</span> / <span>00:00:04:997</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_30_LoginAccountSectionPresence</h5>
+<span class='badge badge-success'>09.16.2025 12:09:59 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:10:04 pm</span>
+<span class='badge badge-default'>00:00:04:997</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">To verify and validate the presence of 'Login to your account' section</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:59 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_30_LoginAccountSectionPresence
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:59 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:09:59 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:02 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:04 pm</td>
+        <td>
+          Step 1: Verifying the presence of the 'Login to your account' section.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:10:04 pm</td>
+        <td>
+          Verification successful: 'Login to your account' section is present on the page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:10:04 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_30_LoginAccountSectionPresence
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_31_NewUserSignupSectionPresence</p>
+            <p class="text-sm">
+              <span>12:10:05 pm</span> / <span>00:00:04:944</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_31_NewUserSignupSectionPresence</h5>
+<span class='badge badge-success'>09.16.2025 12:10:05 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:10:09 pm</span>
+<span class='badge badge-default'>00:00:04:944</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">To verify and validate the presence of 'New User Signup!' section</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:05 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_31_NewUserSignupSectionPresence
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:05 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:05 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:07 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:09 pm</td>
+        <td>
+          Step 1: Verifying the presence of the 'New User Signup!' section.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:10:09 pm</td>
+        <td>
+          Verification successful: 'New User Signup!' section is present on the page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:10:09 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_31_NewUserSignupSectionPresence
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="QATeam"
+          tag="Signup/LoginPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_Signup_Login_32_ORSeparatorPresence</p>
+            <p class="text-sm">
+              <span>12:10:10 pm</span> / <span>00:00:06:054</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_Signup_Login_32_ORSeparatorPresence</h5>
+<span class='badge badge-success'>09.16.2025 12:10:10 pm</span>
+<span class='badge badge-danger'>09.16.2025 12:10:16 pm</span>
+<span class='badge badge-default'>00:00:06:054</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">Signup/LoginPageTests</span></div>
+<div class="m-t-10 m-l-5">To verify and validate the presence of 'OR' separator/logo between login and signup</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:10 pm</td>
+        <td>
+          Starting test: TC_Signup_Login_32_ORSeparatorPresence
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:10 pm</td>
+        <td>
+          Pre-condition: Navigating to Signup/Login page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:10 pm</td>
+        <td>
+          Navigating to the home page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:12 pm</td>
+        <td>
+          Clicking the 'Signup / Login' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:10:16 pm</td>
+        <td>
+          Step 1: Verifying the presence of the 'OR' separator.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:10:16 pm</td>
+        <td>
+          Verification successful: The 'OR' separator is present on the page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:10:16 pm</td>
+        <td>
+          Test Passed: TC_Signup_Login_32_ORSeparatorPresence
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>13</span>
+</span>
+<p class="name">Signup/LoginPageTests</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Signup/LoginPageTests</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:08:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC_Signup_Login_15_HomeIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:08:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC_Signup_Login_16_ProductsIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:08:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC_Signup_Login_17_CartIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC_Signup_Login_18_TestCasesIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC_Signup_Login_19_APITestingIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC_Signup_Login_20_VideoTutorialsIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC_Signup_Login_21_ContactUsIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC_Signup_Login_25_PasswordFieldMasked</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC_Signup_Login_27_AutomationExerciseLogoFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC_Signup_Login_29_LoginSignupPageLoads</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC_Signup_Login_30_LoginAccountSectionPresence</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:10:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC_Signup_Login_31_NewUserSignupSectionPresence</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:10:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC_Signup_Login_32_ORSeparatorPresence</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>13</span>
+</span>
+<p class="name">QATeam</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>QATeam</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:08:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC_Signup_Login_15_HomeIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:08:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC_Signup_Login_16_ProductsIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:08:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC_Signup_Login_17_CartIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC_Signup_Login_18_TestCasesIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC_Signup_Login_19_APITestingIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC_Signup_Login_20_VideoTutorialsIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC_Signup_Login_21_ContactUsIconFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC_Signup_Login_25_PasswordFieldMasked</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC_Signup_Login_27_AutomationExerciseLogoFunctionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC_Signup_Login_29_LoginSignupPageLoads</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:09:59 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC_Signup_Login_30_LoginAccountSectionPresence</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:10:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC_Signup_Login_31_NewUserSignupSectionPresence</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:10:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC_Signup_Login_32_ORSeparatorPresence</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>16/09/2025 12:08:31</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>16/09/2025 12:10:16</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>13</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>13</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='26%'><b>26</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>74</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"TC_Signup_Login_15_HomeIconFunctionality":9.352,"TC_Signup_Login_16_ProductsIconFunctionality":8.721,"TC_Signup_Login_17_CartIconFunctionality":9.273,"TC_Signup_Login_18_TestCasesIconFunctionality":6.713,"TC_Signup_Login_19_APITestingIconFunctionality":8.657,"TC_Signup_Login_20_VideoTutorialsIconFunctionality":10.768,"TC_Signup_Login_21_ContactUsIconFunctionality":7.526,"TC_Signup_Login_25_PasswordFieldMasked":5.657,"TC_Signup_Login_27_AutomationExerciseLogoFunctionality":9.845,"TC_Signup_Login_29_LoginSignupPageLoads":5.234,"TC_Signup_Login_30_LoginAccountSectionPresence":4.997,"TC_Signup_Login_31_NewUserSignupSectionPresence":4.944,"TC_Signup_Login_32_ORSeparatorPresence":6.054
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>QATeam</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Signup/LoginPageTests</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Automation Exercise Website</td>
+</tr>
+<tr>
+<td>Application URL</td>
+<td>https://automationexercise.com/</td>
+</tr>
+<tr>
+<td>Test Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>srimedha</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>24.0.2</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Mac OS X</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Multi-browser (Chrome, Edge, Firefox)</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 13,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 26,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 74
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,2131 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Cart Page Data-Driven Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Data-Driven Cart Page Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sept 16, 2025 02:47:41 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">QATeam</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">CartPageTesting</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_1</p>
+            <p class="text-sm">
+              <span>2:47:53 pm</span> / <span>00:00:00:693</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_1</h5>
+<span class='badge badge-success'>09.16.2025 2:47:53 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:47:54 pm</span>
+<span class='badge badge-default'>00:00:00:693</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Home icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:53 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:53 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Home icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:53 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Page should be navigated to homepage correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:53 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Home page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:47:54 pm</td>
+        <td>
+          ✅ <b>Home navigation successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_2</p>
+            <p class="text-sm">
+              <span>2:47:54 pm</span> / <span>00:00:01:380</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_2</h5>
+<span class='badge badge-success'>09.16.2025 2:47:54 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:47:55 pm</span>
+<span class='badge badge-default'>00:00:01:380</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Products icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:54 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:54 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Products icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:54 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Redirects to Products page showing product listing
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:54 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Products page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:47:55 pm</td>
+        <td>
+          ✅ <b>Products navigation successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_3</p>
+            <p class="text-sm">
+              <span>2:47:55 pm</span> / <span>00:00:01:183</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_3</h5>
+<span class='badge badge-success'>09.16.2025 2:47:55 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:47:56 pm</span>
+<span class='badge badge-default'>00:00:01:183</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Cart icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:55 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_3
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:55 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Cart icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:55 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Navigates to Cart page (remains on cart page)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:55 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          ✅ <b>Cart navigation successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_4</p>
+            <p class="text-sm">
+              <span>2:47:56 pm</span> / <span>00:00:00:008</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_4</h5>
+<span class='badge badge-success'>09.16.2025 2:47:56 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:47:56 pm</span>
+<span class='badge badge-default'>00:00:00:008</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Signup / Login icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_4
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Signup / Login icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> User should be logged in (Logout link visible)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          ✔️ <b>Validation:</b> Verifying login status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          ✅ <b>Login status verified</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_5</p>
+            <p class="text-sm">
+              <span>2:47:56 pm</span> / <span>00:00:03:717</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_5</h5>
+<span class='badge badge-success'>09.16.2025 2:47:56 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:00 pm</span>
+<span class='badge badge-default'>00:00:03:717</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Test Cases icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_5
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Test Cases icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Navigates to Test Cases page; content visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:47:56 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Test Cases page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:00 pm</td>
+        <td>
+          ✅ <b>Test Cases navigation successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_6</p>
+            <p class="text-sm">
+              <span>2:48:00 pm</span> / <span>00:00:00:666</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_6</h5>
+<span class='badge badge-success'>09.16.2025 2:48:00 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:01 pm</span>
+<span class='badge badge-default'>00:00:00:666</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of API Testing icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:00 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:00 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of API Testing icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:00 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Redirects to API Testing page or documentation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:00 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to API Testing page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:01 pm</td>
+        <td>
+          ✅ <b>API navigation successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_7</p>
+            <p class="text-sm">
+              <span>2:48:01 pm</span> / <span>00:00:01:062</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_7</h5>
+<span class='badge badge-success'>09.16.2025 2:48:01 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:02 pm</span>
+<span class='badge badge-default'>00:00:01:062</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Contact Us icon on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:01 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_7
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:01 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Contact Us icon on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:01 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Contact form or contact information section appears
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:01 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Contact Us page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:02 pm</td>
+        <td>
+          ✅ <b>Contact Us navigation successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_8</p>
+            <p class="text-sm">
+              <span>2:48:02 pm</span> / <span>00:00:01:089</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_8</h5>
+<span class='badge badge-success'>09.16.2025 2:48:02 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:03 pm</span>
+<span class='badge badge-default'>00:00:01:089</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Contact Us icon from cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:02 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_8
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:02 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Contact Us icon from cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:02 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Contact form or contact information section appears
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:02 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Contact Us from Cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:03 pm</td>
+        <td>
+          ✅ <b>Contact Us from cart successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_9</p>
+            <p class="text-sm">
+              <span>2:48:03 pm</span> / <span>00:00:01:114</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_9</h5>
+<span class='badge badge-success'>09.16.2025 2:48:03 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:04 pm</span>
+<span class='badge badge-default'>00:00:01:114</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the functionality of Home button on the cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:03 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_9
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:03 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the functionality of Home button on the cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:03 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Navigates to the home page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:03 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Navigating to Home from Cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:04 pm</td>
+        <td>
+          ✅ <b>Home from cart successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="10"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_10</p>
+            <p class="text-sm">
+              <span>2:48:04 pm</span> / <span>00:00:03:110</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">TC_cart_10</h5>
+<span class='badge badge-success'>09.16.2025 2:48:04 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:07 pm</span>
+<span class='badge badge-default'>00:00:03:110</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">To verify and validate the email subscription functionality with valid email id</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:04 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_10
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:04 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: To verify and validate the email subscription functionality with valid email id
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:04 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> User should be subscribed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:04 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing email subscription with: test@example.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          ⚠️ <b>Email subscription form not found - test completed</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_11</p>
+            <p class="text-sm">
+              <span>2:48:07 pm</span> / <span>00:00:00:060</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TC_cart_11</h5>
+<span class='badge badge-success'>09.16.2025 2:48:07 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:07 pm</span>
+<span class='badge badge-default'>00:00:00:060</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">To verify and validate the email subscription with invalid email format</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_11
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: To verify and validate the email subscription with invalid email format
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Email validation error should be shown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing invalid email subscription with: user.@example.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          ❌ <b>Test failed: Invalid email should not be valid expected [false] but found [true]</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_12</p>
+            <p class="text-sm">
+              <span>2:48:07 pm</span> / <span>00:00:01:304</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_12</h5>
+<span class='badge badge-success'>09.16.2025 2:48:07 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:08 pm</span>
+<span class='badge badge-default'>00:00:01:304</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate that proceed checkout button functionality</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_12
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate that proceed checkout button functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> User should be redirected to checkout page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:07 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing proceed to checkout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:08 pm</td>
+        <td>
+          ✅ <b>Proceed to checkout successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_13</p>
+            <p class="text-sm">
+              <span>2:48:08 pm</span> / <span>00:00:01:703</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_13</h5>
+<span class='badge badge-success'>09.16.2025 2:48:08 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:10 pm</span>
+<span class='badge badge-default'>00:00:01:703</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate the remove item from cart button functionality</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:08 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_13
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:08 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate the remove item from cart button functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:08 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Item should be removed from the cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:08 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing remove item from cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:09 pm</td>
+        <td>
+          ℹ️ Items in cart before removal: 2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:10 pm</td>
+        <td>
+          ℹ️ Items in cart after removal: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:10 pm</td>
+        <td>
+          ✅ <b>Remove from cart successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_14</p>
+            <p class="text-sm">
+              <span>2:48:10 pm</span> / <span>00:00:00:417</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_14</h5>
+<span class='badge badge-success'>09.16.2025 2:48:10 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:11 pm</span>
+<span class='badge badge-default'>00:00:00:417</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate product details are displayed in cart</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:10 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_14
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:10 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate product details are displayed in cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:10 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Product name, image, price, quantity should be visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:10 pm</td>
+        <td>
+          ✔️ <b>Validation:</b> Verifying product details in cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:11 pm</td>
+        <td>
+          ✅ <b>Product details verification successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_15</p>
+            <p class="text-sm">
+              <span>2:48:11 pm</span> / <span>00:00:01:264</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_15</h5>
+<span class='badge badge-success'>09.16.2025 2:48:11 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:12 pm</span>
+<span class='badge badge-default'>00:00:01:264</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate that cart is accessible from Home page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:11 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_15
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:11 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate that cart is accessible from Home page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:11 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Cart page should open with items or empty state
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:11 pm</td>
+        <td>
+          🧭 <b>Navigation:</b> Accessing cart from home page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          ✅ <b>Cart access from home successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_16</p>
+            <p class="text-sm">
+              <span>2:48:12 pm</span> / <span>00:00:00:396</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_16</h5>
+<span class='badge badge-success'>09.16.2025 2:48:12 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:12 pm</span>
+<span class='badge badge-default'>00:00:00:396</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate that cart item quantity is displayed correctly</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_16
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate that cart item quantity is displayed correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Item quantities should be displayed correctly (1, 2, 3, etc.)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          ✔️ <b>Validation:</b> Verifying cart item quantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          ✅ <b>Cart item quantity verification successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_17</p>
+            <p class="text-sm">
+              <span>2:48:12 pm</span> / <span>00:00:00:398</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_17</h5>
+<span class='badge badge-success'>09.16.2025 2:48:12 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:13 pm</span>
+<span class='badge badge-default'>00:00:00:398</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate that cart price calculations are accurate</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_17
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate that cart price calculations are accurate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Item prices should be displayed in proper format (Rs. or $) and calculations should be accurate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:12 pm</td>
+        <td>
+          ✔️ <b>Validation:</b> Verifying cart price calculation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:13 pm</td>
+        <td>
+          ✅ <b>Cart price calculation verification successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_18</p>
+            <p class="text-sm">
+              <span>2:48:13 pm</span> / <span>00:00:04:514</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC_cart_18</h5>
+<span class='badge badge-success'>09.16.2025 2:48:13 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:17 pm</span>
+<span class='badge badge-default'>00:00:04:514</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate empty cart message when no items are present</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:13 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_18
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:13 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate empty cart message when no items are present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:13 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Empty cart message or indication should be displayed when cart has no items
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:13 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing empty cart message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:13 pm</td>
+        <td>
+          ℹ️ Found 1 items to remove
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:48:17 pm</td>
+        <td>
+          ✅ <b>Empty cart message verification successful</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="19"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_19</p>
+            <p class="text-sm">
+              <span>2:48:17 pm</span> / <span>00:00:03:879</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">TC_cart_19</h5>
+<span class='badge badge-success'>09.16.2025 2:48:17 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:21 pm</span>
+<span class='badge badge-default'>00:00:03:879</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">Verify and validate Continue Shopping functionality from cart page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:17 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_19
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:17 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: Verify and validate Continue Shopping functionality from cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:17 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Should navigate back to products page or homepage for continued shopping
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:17 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing continue shopping functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>2:48:21 pm</td>
+        <td>
+          ⚠️ <b>Continue shopping test completed</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="20"
+          author="QATeam"
+          tag="CartPageTesting"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC_cart_20</p>
+            <p class="text-sm">
+              <span>2:48:21 pm</span> / <span>00:00:05:365</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">TC_cart_20</h5>
+<span class='badge badge-success'>09.16.2025 2:48:21 pm</span>
+<span class='badge badge-danger'>09.16.2025 2:48:26 pm</span>
+<span class='badge badge-default'>00:00:05:365</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QATeam</span>
+<span class="badge badge-pill badge-default">CartPageTesting</span></div>
+<div class="m-t-10 m-l-5">To verify checkout redirect when user is not logged in</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:21 pm</td>
+        <td>
+          🔹 <b>Step:</b> Executing: TC_cart_20
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:21 pm</td>
+        <td>
+          📊 <b>Test Data:</b> Objective: To verify checkout redirect when user is not logged in
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:21 pm</td>
+        <td>
+          🎯 <b>Expected Result:</b> Should redirect to login/signup page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:48:21 pm</td>
+        <td>
+          ▶️ <b>Action:</b> Testing checkout redirect for non-logged-in user
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>2:48:26 pm</td>
+        <td>
+          ⚠️ <b>Checkout redirect test completed</b>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-warning'>3</span>
+</span>
+<p class="name">CartPageTesting</p>
+<p class="duration text-sm">20 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>CartPageTesting</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="skip" class='badge log badge-warning'>3 others</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC_cart_1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC_cart_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC_cart_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC_cart_4</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC_cart_5</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC_cart_6</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC_cart_7</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC_cart_8</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC_cart_9</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>14:48:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC_cart_10</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:48:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC_cart_11</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC_cart_12</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC_cart_13</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>TC_cart_14</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>TC_cart_15</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>TC_cart_16</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>TC_cart_17</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>TC_cart_18</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>14:48:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>TC_cart_19</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>14:48:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>TC_cart_20</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-warning'>3</span>
+</span>
+<p class="name">QATeam</p>
+<p class="duration text-sm">20 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>QATeam</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="skip" class='badge log badge-warning'>3 others</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC_cart_1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC_cart_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC_cart_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC_cart_4</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:47:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC_cart_5</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC_cart_6</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC_cart_7</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC_cart_8</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC_cart_9</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>14:48:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC_cart_10</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:48:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC_cart_11</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC_cart_12</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC_cart_13</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>TC_cart_14</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>TC_cart_15</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>TC_cart_16</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>TC_cart_17</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:48:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>TC_cart_18</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>14:48:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>TC_cart_19</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>14:48:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>TC_cart_20</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sept 16, 2025 02:47:41 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sept 16, 2025 02:48:27 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>16</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'>
+<b>16</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='5%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='15%'>3</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='15%'><b>16</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>1</b> events failed,
+<b data-tooltip='%'>86</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"TC_cart_1":0.693,"TC_cart_2":1.38,"TC_cart_3":1.183,"TC_cart_4":0.008,"TC_cart_5":3.717,"TC_cart_6":0.666,"TC_cart_7":1.062,"TC_cart_8":1.089,"TC_cart_9":1.114,"TC_cart_10":3.11,"TC_cart_11":0.06,"TC_cart_12":1.304,"TC_cart_13":1.703,"TC_cart_14":0.417,"TC_cart_15":1.264,"TC_cart_16":0.396,"TC_cart_17":0.398,"TC_cart_18":4.514,"TC_cart_19":3.879,"TC_cart_20":5.365
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>QATeam</td>
+<td>16</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>80%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>CartPageTesting</td>
+<td>16</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>80%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Automation Exercise</td>
+</tr>
+<tr>
+<td>Test Type</td>
+<td>Data-Driven UI Automation</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Mac OS X</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>24.0.2</td>
+</tr>
+<tr>
+<td>User</td>
+<td>srimedha</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 16,
+failParent: 1,
+warningParent: 3,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 16,
+failEvents: 1,
+warningEvents: 3,
+skipEvents: 0,
+infoEvents: 83
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
