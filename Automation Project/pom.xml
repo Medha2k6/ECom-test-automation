@@ -100,7 +100,7 @@
                 <version>3.2.5</version>
                 <configuration>
                    <suiteXmlFiles>
-    <suiteXmlFile>contactus_testing.xml</suiteXmlFile>
+    <suiteXmlFile>contactus_testng.xml</suiteXmlFile>
     <suiteXmlFile>data_contactus_testng.xml</suiteXmlFile>
     <suiteXmlFile>data_login_testng.xml</suiteXmlFile>
     <suiteXmlFile>data_product_testng.xml</suiteXmlFile>
