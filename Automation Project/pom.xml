@@ -100,19 +100,19 @@
                 <version>3.2.5</version>
                 <configuration>
                    <suiteXmlFiles>
-    <suiteXmlFile>contactus_testng.xml</suiteXmlFile>
-    <suiteXmlFile>data_contactus_testng.xml</suiteXmlFile>
-    <suiteXmlFile>data_login_testng.xml</suiteXmlFile>
-    <suiteXmlFile>data_product_testng.xml</suiteXmlFile>
-    <suiteXmlFile>data_register_testng.xml</suiteXmlFile>
-    <suiteXmlFile>login_testng.xml</suiteXmlFile>
-    <suiteXmlFile>product_functional_testng.xml</suiteXmlFile>
-    <suiteXmlFile>TestCases_testng.xml</suiteXmlFile>
-    <suiteXmlFile>testng_api.xml</suiteXmlFile>
-    <suiteXmlFile>testng_cart.xml</suiteXmlFile>
-    <suiteXmlFile>testng_contactus.xml</suiteXmlFile>
-    <suiteXmlFile>testng_home.xml</suiteXmlFile>
-    <suiteXmlFile>testng_testcases.xml</suiteXmlFile>
+    <suiteXmlFile>XML/contactus_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/data_contactus_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/data_login_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/data_product_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/data_register_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/login_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/product_functional_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/TestCases_testng.xml</suiteXmlFile>
+    <suiteXmlFile>XML/testng_api.xml</suiteXmlFile>
+    <suiteXmlFile>XML/testng_cart.xml</suiteXmlFile>
+    <suiteXmlFile>XML/testng_contactus.xml</suiteXmlFile>
+    <suiteXmlFile>XML/testng_home.xml</suiteXmlFile>
+    <suiteXmlFile>XML/testng_testcases.xml</suiteXmlFile>
 </suiteXmlFiles>
                 </configuration>
             </plugin>
