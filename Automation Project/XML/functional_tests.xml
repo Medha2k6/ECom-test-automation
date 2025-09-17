@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="classes" thread-count="8">
+    <test name="E-Commerce Tests">
+        <classes>
+            <class name="com.functional.tests.ContactUs_Functional"/>
+            <class name="com.functional.tests.LoginTestSuite"/>
+            <class name="com.functional.tests.Product_Functional_11_20"/>
+            <class name="com.functional.tests.Product_Functional_1_10"/>
+            <class name="com.functional.tests.Product_Functional_21_33"/>
+            <class name="com.functional.tests.TestCasesPageDetailedTestSuite"/>
+        </classes>
+    </test>
+</suite>
